@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html style="background-color:LightGray;">
+<p style='font: 7px Arial;'>Version 1.03</p>
+
+<style>
+
+.button {
+  display: inline-block;
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 3px 10px 3px 10px;
+  border-top: 3px solid #CCCCCC;
+  border-right: 3px solid #333333;
+  border-bottom: 3px solid #333333;
+  border-left: 3px solid #CCCCCC;
+  word-warp: break-word;
+  width: 100px;
+}
+.row0 {
+background-color:white;
+}
+.row1 {
+background-color:#b3edff;
+}
+table {border-radius:6px; border: 3px solid black; border-spacing: 0px;box-shadow:4px 4px 4px #006280;}  td {border: 1px solid black;border-bottom: none;border-top: none; } th {border-bottom: 3px solid black; background-color:#0095C1;}
+</style>
+  <head>
+<link rel="stylesheet" href="css/swipebox.css"></link>
+  </head>
+<div id='begin_page'>
+<hr style="background-color:#0095C1;height:40px;"></hr>
+<div style='width:100%;display:inline-block;'>
+<img  style="width:200px;display:inline-block;" src="img/logo1.gif">
+<div style="width:100px;margin-left:auto;margin-right:0;display:inline-block;vertical-align:top;">
+<a href="#" onclick="window.open('http://www.icaonline.co.za', '_system');return false;">ICA website</a><br><br><br>
+<a href="#" onclick="window.open('https://www.facebook.com/ICAInternationalChemicals/?rf=1585922241735402', '_system');return false;"><img src='img/facebook.png' style="width:25px;"></img></a><br>
+</div>
+</div>
+  <body id="body_id">
+    <b><p><a class='button' href="#" onclick="alert_desc(); return false;">App Description</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class='button' href="#" onclick="go_to_div('dosis'); return false;">Dosages (RSA)</a></p></b>
+<b><p><a class='button' id="gallery1" href="#">Factsheets Eng</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class='button' id="gallery2" href="#">Factsheets Afr</a></p></b>
+<b><p><a class='button' id="gallery" href="#">Labels</a></p></b>
+<div style="margin-left:0;">
+<b style="margin-left:20px;">Citrus Commodity</b>
+<form>
+<div id='checkbox_div'></div></form>
+<br>
+Find country: <input id='input_country' type='input' onkeyup='scroll_to();'>
+<div id='full_countries'>
+<br> <b  style="margin-left:20px;">Markets (Countries) Exported to:</b>
+<div id='checkbox_div2' style="width: 200px;height: 150px;overflow: scroll;background-color:white;"></div>
+<div id='Selected_countries'>
+<b  style="margin-left:20px;">Selected countries:</b>
+<div id='check_countries'>
+</div>
+</div>
+</div>
+<b><p style="margin-left:20px;"><a class="button" href="#" onclick="get_Values(); return false;">Submit</a></p></b>
+
+<div id='end_div'>
+<b style="margin-left:20px;">Default MRL for export to:</b><p style="margin-left:20px;" id='countries_selected' > </p>
+<div id='answer'>
+
+</div>
+</div>
+</div>
+<div id='dosis'>
+<div style="margin-left:20px;">
+<b>Product application dosages as registered in RSA:</b>
+</div>
+<table>
+<tr><th rowspan='2'> Product</th> <th style='border-bottom: none;'  colspan='2'>Dosage in 100 <span>&#8467;</span></th></tr>
+<tr><th>Water Application</th> <th>Wax Application</th></tr>
+<tr class='row0'><td>ImazaCure 750 SG</td><td style="text-align:center;">67 g</td> <td style="text-align:center;">-</td></tr>
+<tr class='row1'><td>ImazaCure 500 EC</td> <td style="text-align:center;">0.2 <span>&#8467;</span> </td><td style="text-align:center;">0.4 - 0.6 <span>&#8467;</span> </td></tr>
+<tr class='row0'><td>ImaCulate 300 EC </td> <td style="text-align:center;">-</td>  <td style="text-align:center;">1 <span>&#8467;</span> </td></tr>
+<tr class='row1'><td>CitriCure</td> <td style="text-align:center;">0.48 <span>&#8467;</span> </td>  <td style="text-align:center;">-</td></tr>
+<tr class='row0'><td>Propirly 270 EC</td> <td style="text-align:center;">0.5 <span>&#8467;</span> </td>  <td style="text-align:center;">-</td></tr>
+<tr class='row1'><td>PropiCure 250 EC</td> <td style="text-align:center;">0.24 <span>&#8467;</span> </td>  <td style="text-align:center;">0.72 <span>&#8467;</span> </td></tr>
+<tr class='row0'><td>Protector 400 SC</td> <td style="text-align:center;">0.25 <span>&#8467;</span> </td>  <td style="text-align:center;">1 <span>&#8467;</span> </td></tr>
+<tr class='row1'><td>ICA Thiabendazole 500 SC</td> <td style="text-align:center;">0.2 (Drench) - 0.4 (Bath) <span>&#8467;</span> </td>  <td style="text-align:center;">0.8 <span>&#8467;</span> </td></tr>
+<tr class='row0'><td>Teacher 230 SC</td><td style="text-align:center;">0.26 <span>&#8467;</span> </td>  <td style="text-align:center;">1 - 2 <span>&#8467;</span> </td></tr>
+<tr class='row1'><td>Sporekill</td> <td style="text-align:center;">0.1 - 0.15 <span>&#8467;</span>  </td><td style="text-align:center;">-</td></tr>
+<tr class='row0'><td>HyperCide</td> <td style="text-align:center;">0.1 - 0.2 <span>&#8467;</span>   </td>  <td style="text-align:center;">-</td></tr>
+<tr class='row1'><td>ICA Prochloraz 450 SC</td> <td style="text-align:center;">0.33 <span>&#8467;</span>   </td>  <td style="text-align:center;">-</td></tr>
+</table>
+</div>
+<hr style="background-color:#0095C1;height:40px;"></hr>
+<script src="js/jquery.min.js"></script>
+
+<script type="text/javascript" charset="utf-8" src="js/jquery.swipebox.min.js"></script>
+<script src="js/impetus.js"></script>
+<script src="js/pinch-zoom-canvas.js"></script>
+
+<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/index.js"></script>
+<link href="js/photoswipe.css" rel="stylesheet" />
+    <link href="js/default-skin.css" rel="stylesheet" />
+    <link href="js/default-skin.css" rel="stylesheet" />    
+    
+      <script src="js/photoswipe.min.js"></script>
+      <script src="js/photoswipe-ui-default.min.js"></script>
+
+
+    
+
+
+
+    
+    
+
+
+    	
+              <div id="demo-test-gallery1" class="demo-gallery1" style='display:none;'>
+
+	        <a id="button1_pressed" href="facts/FungicideBathEng.jpg" data-size="1746x2359" data-med="facts/FungicideBathEng.jpg" data-med-size="1746x2359" data-author="" class="demo-gallery__img--main">
+	          <img src="facts/FungicideBathEng.jpg" alt="" />
+	          <figure>Fungicide Bath</figure>
+	        </a>
+
+
+
+	        <a href="facts/PrePackhouseDrenchEng.jpg" data-size="1746x2359" data-med="facts/PrePackhouseDrenchEng.jpg" data-med-size="1746x2359" data-author="" class="demo-gallery__img--main">
+	          <img src="facts/PrePackhouseDrenchEng.jpg" alt="" />
+	          <figure>Pre-Packhouse Drench</figure>
+	        </a>
+
+
+	        <a href="facts/WaterSanitationEng.jpg" data-size="1746x2359" data-med="facts/WaterSanitationEng.jpg" data-med-size="1746x2359" data-author="" class="demo-gallery__img--main">
+	          <img src="facts/WaterSanitationEng.jpg" alt="" />
+	          <figure>Water Sanitation</figure>
+	        </a>
+
+	        <a href="facts/WaxApplicationEng.jpg" data-size="1746x2359" data-med="facts/WaxApplicationEng.jpg" data-med-size="1746x2359" data-author="" class="demo-gallery__img--main">
+	          <img src="facts/WaxApplicationEng.jpg" alt="" />
+	          <figure>Wax Application</figure>
+	        </a>
+
+
+
+	      </div>
+
+	      <div id="demo-test-gallery" class="demo-gallery" style='display:none;'>
+
+	        <a id="button2_pressed" href="facts/FungicideBathAfr.jpg" data-size="1746x2359" data-med="facts/FungicideBathAfr.jpg" data-med-size="1746x2359" data-author="" class="demo-gallery__img--main">
+	          <img src="facts/FungicideBathAfr.jpg" alt="" />
+	          <figure>Fungicide Bath</figure>
+	        </a>
+
+	      
+
+
+	        <a href="facts/PrePackhouseDrenchAfr.jpg" data-size="1746x2359" data-med="facts/PrePackhouseDrenchAfr.jpg" data-med-size="1746x2359" data-author="" class="demo-gallery__img--main">
+	          <img src="facts/PrePackhouseDrenchAfr.jpg" alt="" />
+	          <figure>Pre-Packhouse Drench</figure>
+	        </a>
+
+
+	        <a href="facts/WaterSanitationAfr.jpg" data-size="1746x2359" data-med="facts/WaterSanitationAfr.jpg" data-med-size="1746x2359" data-author="" class="demo-gallery__img--main">
+	          <img src="facts/WaterSanitationAfr.jpg" alt="" />
+	          <figure>Water Sanitation</figure>
+	        </a>
+
+	        <a href="facts/WaxApplicationAfr.jpg" data-size="1746x2359" data-med="facts/WaxApplicationAfr.jpg" data-med-size="1746x2359" data-author="" class="demo-gallery__img--main">
+	          <img src="facts/WaxApplicationAfr.jpg" alt="" />
+	          <figure>Wax Application</figure>
+	        </a>
+
+
+
+	      </div>
+	      <!-- <figure class="demo-gallery__title">Demo gallery &middot; 5 photos</figure> -->
+
+
+	</div>
+
+
+	<div id="demo-test-gallery2" class="demo-gallery2" style='display:none;'>
+
+	        <a id="button3_pressed" href="labels/CitruCure1.jpg" data-size="1746x2359" data-med="labels/CitruCure1.jpg" data-med-size="1746x2359" data-author="" class="demo-gallery__img--main">
+	          <img src="labels/CitruCure1.jpg" alt="" />
+	          <figure>Full labels on ICA website.</figure>
+	        </a>
+
+
+
+	        <a href="labels/Hypercide1.jpg" data-size="1746x2359" data-med="labels/Hypercide1.jpg" data-med-size="1746x2359" data-author="" class="demo-gallery__img--main">
+	          <img src="labels/Hypercide1.jpg" alt="" />
+	          <figure>Full labels on ICA website.</figure>
+	        </a>
+
+
+	        <a href="labels/Imaculate300EC1.jpg" data-size="1746x2359" data-med="labels/Imaculate300EC1.jpg" data-med-size="1746x2359" data-author="" class="demo-gallery__img--main">
+	          <img src="labels/Imaculate300EC1.jpg" alt="" />
+	          <figure>Full labels on ICA website.</figure>
+	        </a>
+
+	        <a href="labels/ImazaCure500EC1.jpg" data-size="1746x2359" data-med="labels/ImazaCure500EC1.jpg" data-med-size="1746x2359" data-author="" class="demo-gallery__img--main">
+	          <img src="labels/ImazaCure500EC1.jpg" alt="" />
+	          <figure>Full labels on ICA website.</figure>
+	        </a>
+	
+		<a href="labels/ImazaCure750EC1.jpg" data-size="1746x2359" data-med="labels/ImazaCure750EC1.jpg" data-med-size="1746x2359" data-author="" class="demo-gallery__img--main">
+	          <img src="labels/ImazaCure750EC1.jpg" alt="" />
+	          <figure>Full labels on ICA website.</figure>
+	        </a>
+	        
+<a href="labels/PropiCureLabel1.jpg" data-size="1746x2359" data-med="labels/PropiCureLabel1.jpg" data-med-size="1746x2359" data-author="" class="demo-gallery__img--main">
+	          <img src="labels/PropiCureLabel1.jpg" alt="" />
+	          <figure>Full labels on ICA website.</figure>
+	        </a>
+	        
+	        
+	        <a href="labels/PropirlyLabel1.jpg" data-size="1746x2359" data-med="labels/PropirlyLabel1.jpg" data-med-size="1746x2359" data-author="" class="demo-gallery__img--main">
+	          <img src="labels/PropirlyLabel1.jpg" alt="" />
+	          <figure>Full labels on ICA website.</figure>
+	        </a>
+	        
+	        <a href="labels/Protector400SC1.jpg" data-size="1746x2359" data-med="labels/Protector400SC1.jpg" data-med-size="1746x2359" data-author="" class="demo-gallery__img--main">
+	          <img src="labels/Protector400SC1.jpg" alt="" />
+	          <figure>Full labels on ICA website.</figure>
+	        </a>
+	        
+	        <a href="labels/Sporekill1.jpg" data-size="1746x2359" data-med="labels/Sporekill1.jpg" data-med-size="1746x2359" data-author="" class="demo-gallery__img--main">
+	          <img src="labels/Sporekill1.jpg" alt="" />
+	          <figure>Full labels on ICA website.</figure>
+	        </a>
+	        
+	        <a href="labels/TEACHER1.jpg" data-size="1746x2359" data-med="labels/TEACHER1.jpg" data-med-size="1746x2359" data-author="" class="demo-gallery__img--main">
+	          <img src="labels/TEACHER1.jpg" alt="" />
+	          <figure>Full labels on ICA website.</figure>
+	        </a>
+	        
+	        <a href="labels/Thiabendazole500SC1.jpg" data-size="1746x2359" data-med="labels/Thiabendazole500SC1.jpg" data-med-size="1746x2359" data-author="" class="demo-gallery__img--main">
+	          <img src="labels/Thiabendazole500SC1.jpg" alt="" />
+	          <figure>Full labels on ICA website.</figure>
+	        </a>
+	      </div>
+
+  	
+
+    <div id="gallery" class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="pswp__bg"></div>
+
+        <div class="pswp__scroll-wrap">
+
+          <div class="pswp__container">
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+          </div>
+
+          <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+				<div class="pswp__counter"></div>
+
+				<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+				<button class="pswp__button pswp__button--share" title="Share"></button>
+
+				<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+				<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+				<div class="pswp__preloader">
+					<div class="pswp__preloader__icn">
+					  <div class="pswp__preloader__cut">
+					    <div class="pswp__preloader__donut"></div>
+					  </div>
+					</div>
+				</div>
+            </div>
+
+
+			<!-- <div class="pswp__loading-indicator"><div class="pswp__loading-indicator__line"></div></div> -->
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+	            <div class="pswp__share-tooltip">
+					<!-- <a href="#" class="pswp__share--facebook"></a>
+					<a href="#" class="pswp__share--twitter"></a>
+					<a href="#" class="pswp__share--pinterest"></a>
+					<a href="#" download class="pswp__share--download"></a> -->
+	            </div>
+	        </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+            <div class="pswp__caption">
+              <div class="pswp__caption__center">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+    </div>
+    
+  
+</div>
+
+</html>
