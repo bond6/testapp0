@@ -343,7 +343,7 @@ function onDeviceReady() {
 		};
                 initPhotoSwipeFromDOM('.demo-gallery');
                 initPhotoSwipeFromDOM('.demo-gallery1');
-
+initPhotoSwipeFromDOM('.demo-gallery2');
 	})();
     $( '#gallery' ).click( function( e ) {
 				e.preventDefault();
