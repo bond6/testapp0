@@ -433,8 +433,8 @@ $('#checkbox_div2 div').sort(function (a, b)
 		return String.prototype.localeCompare.call(a.id.toLowerCase(), b.id.toLowerCase());
 	}
 ).each(function() {
-	var elem = $(this);
 	elem.remove();
+	var elem = $(this);
 	$(elem).appendTo('#checkbox_div2');
 });
 
@@ -638,7 +638,7 @@ function add_to_answer(to_add) {
 		if (answer.indexOf(key + " " + to_add[key]) == -1) {
 			answer.push(key + " " + to_add[key]);		
 		}
-	}
+	});
 }
 function scroll_to() {
 	var $container = $('#checkbox_div2');
