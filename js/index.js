@@ -409,7 +409,7 @@ var sCSV = {"c":["RSA", "EU", "USA", "Codex A", "Codex B", "Japan","Korea", "Can
 						$("#checkbox_div2").append("<div class='country_name' style='position: relative' id='"+headers[j].toLowerCase()+"_con'>"+headers[j]+"<input class='input_con_name' type='checkbox' data-country-name='"+headers[j]+"' id='"+headers[j]+"'></div>");
 		            }
 		  		}
-				obj[headers[j]] = sCSV[key];
+				obj[headers[j]] = sCSV[key][j];
 
 			}
 			result.push(obj);
@@ -635,11 +635,9 @@ go_to_div("end_div");
 }
 function add_to_answer(to_add) {
 	Object.keys(to_add).forEach(function(key) {
-		Object.keys(to_add[key]).forEach(function(key1) {
-			if (answer.indexOf(to_add[key][key1]) == -1) {
-				answer.push(key1 + " " + to_add[key][key1]);		
+			if (answer.indexOf(to_add[key]) == -1) {
+				answer.push(key + " " + to_add[key]);
 			}
-		});
 	});
 }
 function scroll_to() {
