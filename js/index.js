@@ -433,8 +433,8 @@ $('#checkbox_div2 div').sort(function (a, b)
 		return String.prototype.localeCompare.call(a.id.toLowerCase(), b.id.toLowerCase());
 	}
 ).each(function() {
-	elem.remove();
 	var elem = $(this);
+	elem.remove();
 	$(elem).appendTo('#checkbox_div2');
 });
 
