@@ -398,7 +398,7 @@ var sCSV = {"c":["RSA", "EU", "USA", "Codex A", "Codex B", "Japan","Korea", "Can
 			rowName[i] = key;
 			$("#checkbox_div").append(key+"<input class='name' name='citrus_rad' type='radio' id='"+i+"'><br>");
 			for(var j=0;j<headers.length;j++){
-				if (i == 1) {
+				if (i == 0) {
 		            if (headers[j] == 'RSA') {
 						var country_name_text = 'RSA';
 						var selected = country_name_text;
@@ -515,8 +515,8 @@ $(".input_con_name_sel").change(function () {
 		checked_countries.push($(this).attr('id'));	
 	});
 	$("#checkbox_div input:checked").each(function(){
-                citrus_name = rowName[$(this).attr('id')-1]
-		checked_citrus.push($(this).attr('id')-1);	
+                citrus_name = rowName[$(this).attr('id')]
+		checked_citrus.push($(this).attr('id'));	
 	});
 	var htmlwrong = document.getElementById("countries_selected").innerHTML;
         document.getElementById("countries_selected").innerHTML = htmlwrong.substr(0, htmlwrong.length-2);
@@ -635,9 +635,11 @@ go_to_div("end_div");
 }
 function add_to_answer(to_add) {
 	Object.keys(to_add).forEach(function(key) {
-		if (answer.indexOf(key + " " + to_add[key]) == -1) {
-			answer.push(key + " " + to_add[key]);		
-		}
+		Object.keys(to_add[key]).forEach(function(key1) {
+			if (answer.indexOf(to_add[key][key1]) == -1) {
+				answer.push(key1 + " " + to_add[key][key1]);		
+			}
+		});
 	});
 }
 function scroll_to() {
