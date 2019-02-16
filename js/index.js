@@ -515,8 +515,8 @@ $(".input_con_name_sel").change(function () {
 		checked_countries.push($(this).attr('id'));	
 	});
 	$("#checkbox_div input:checked").each(function(){
-                citrus_name = rowName[$(this).attr('id')]
-		checked_citrus.push($(this).attr('id'));	
+        citrus_name = rowName[$(this).attr('id')];
+	checked_citrus.push($(this).attr('id'));	
 	});
 	var htmlwrong = document.getElementById("countries_selected").innerHTML;
         document.getElementById("countries_selected").innerHTML = htmlwrong.substr(0, htmlwrong.length-2);
