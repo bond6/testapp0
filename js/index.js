@@ -14,31 +14,31 @@ var two_value = [];
 var array_pictures_counter = 0;
 var array_pictures = [];
 var fact_afr = [ 
-					{ href : 'facts/FungicideBathAfr.jpg', title : 'Fungicide Bath' },
-                                        /*{ href : 'facts/InlineDrenchFlooderAfr.jpg', title : 'Inline Drench Flooder' },*/
-					{ href : 'facts/PrePackhouseDrenchAfr.jpg', title : 'Pre-Packhouse Drench' },
-                                        { href : 'facts/WaterSanitationAfr.jpg', title : 'Water Sanitation' },
-                                        { href : 'facts/WaxApplicationAfr.jpg', title : 'Wax Application' }
+					{ href : 'facts/FungicideBathAfr.jpg', title : 'Fungicide Bath', size:"744x1052" },
+                    /*{ href : 'facts/InlineDrenchFlooderAfr.jpg', title : 'Inline Drench Flooder' },*/
+					{ href : 'facts/PrePackhouseDrenchAfr.jpg', title : 'Pre-Packhouse Drench', size:"744x1052" },
+                    { href : 'facts/WaterSanitationAfr.jpg', title : 'Water Sanitation' , size:"744x1052"},
+                    { href : 'facts/WaxApplicationAfr.jpg', title : 'Wax Application' , size:"744x1052"}
 				];
 var fact_eng = [ 
-					{ href : 'facts/FungicideBathEng.jpg', title : 'Fungicide Bath' },
-                                        /*{ href : 'facts/InlineDrenchFlooderEng.jpg', title : 'Inline Drench Flooder' },*/
-                                        { href : 'facts/PrePackhouseDrenchEng.jpg', title : 'Pre-Packhouse Drench' },
-					{ href : 'facts/WaterSanitationEng.jpg', title : 'Water Sanitation' },
-                                        { href : 'facts/WaxApplicationEng.jpg', title : 'Wax Application' }
+					{ href : 'facts/FungicideBathEng.jpg', title : 'Fungicide Bath', size:"744x1052" },
+                    /*{ href : 'facts/InlineDrenchFlooderEng.jpg', title : 'Inline Drench Flooder' },*/
+                    { href : 'facts/PrePackhouseDrenchEng.jpg', title : 'Pre-Packhouse Drench' , size:"744x1052"},
+					{ href : 'facts/WaterSanitationEng.jpg', title : 'Water Sanitation' , size:"744x1052"},
+                    { href : 'facts/WaxApplicationEng.jpg', title : 'Wax Application' , size:"744x1052"}
 				];
 var label_pic = [ 
-					{ href : 'labels/CitruCure1.jpg', title : 'Full labels on ICA website.' },
-					{ href : 'labels/Hypercide1.jpg', title : 'Full labels on ICA website.' },
-					{ href : 'labels/Imaculate300EC1.jpg', title : 'Full labels on ICA website.' },
-                                        { href : 'labels/ImazaCure500EC1.jpg', title : 'Full labels on ICA website.' },
-                                        { href : 'labels/ImazaCure750EC1.jpg', title : 'Full labels on ICA website.' },
-                                        { href : 'labels/PropiCureLabel1.jpg', title : 'Full labels on ICA website.' },
-					{ href : 'labels/PropirlyLabel1.jpg', title : 'Full labels on ICA website.' },
-                                        { href : 'labels/Protector400SC1.jpg', title : 'Full labels on ICA website.' },
-                                        { href : 'labels/Sporekill1.jpg', title : 'Full labels on ICA website.' },
-					{ href : 'labels/TEACHER1.jpg', title : 'Full labels on ICA website.' },
-                                        { href : 'labels/Thiabendazole500SC1.jpg', title : 'Full labels on ICA website.' }
+					{ href : 'labels/CitruCure1.jpg', title : 'Full labels on ICA website.', size:"1921x1920" },
+					{ href : 'labels/Hypercide1.jpg', title : 'Full labels on ICA website.', size:"1920x888" },
+					{ href : 'labels/Imaculate300EC1.jpg', title : 'Full labels on ICA website.', size:"1921x1921" },
+                    { href : 'labels/ImazaCure500EC1.jpg', title : 'Full labels on ICA website.', size:"1920x1920" },
+                    { href : 'labels/ImazaCure750EC1.jpg', title : 'Full labels on ICA website.', size:"1920x687" },
+                    { href : 'labels/PropiCureLabel1.jpg', title : 'Full labels on ICA website.', size:"1921x1921" },
+					{ href : 'labels/PropirlyLabel1.jpg', title : 'Full labels on ICA website.', size:"1920x1920" },
+                    { href : 'labels/Protector400SC1.jpg', title : 'Full labels on ICA website.', size:"1920x1920" },
+                    { href : 'labels/Sporekill1.jpg', title : 'Full labels on ICA website.', size:"1920x1920" },
+					{ href : 'labels/TEACHER1.jpg', title : 'Full labels on ICA website.', size:"1920x1920" },
+                    { href : 'labels/Thiabendazole500SC1.jpg', title : 'Full labels on ICA website.', size:"1920x1920" }
 				];
 var gau = ['CitriCure', 'Guazalil SL'];
 var ima = ['Guazalil SL','ImazaCure 500 EC','ImaCulate 300 EC', 'ImazaCure 750 SG'];
@@ -387,48 +387,47 @@ $( '#gallery2' ).click( function( e ) {
                                         { href : 'facts/WaxApplicationAfr.jpg', title : 'Wax Application' }
 				], {hideBarsDelay : 0, removeBarsOnMobile: false, loopAtEnd: true});*/
 			} );
-var sCSV = "c,RSA,EU,USA,Codex A,Codex B,Japan,Korea,Canada,Taiwan,GSO,Hong Kong\nLemons,DDAC 6;Fludioxonil 10;Guazatine 5;Imazalil 5;Prochloraz 2;Propiconazole 6;Pyrimethanil 10;TBZ 6,DDAC N;Fludioxonil 10;Guazatine N;Imazalil 5;Prochloraz 10;Propiconazole 5;Pyrimethanil 8;TBZ 7,DDAC N;Fludioxonil 10;Guazatine N;Imazalil 10;Prochloraz N;Propiconazole 8;Pyrimethanil 10;TBZ 10,DDAC N;Fludioxonil 10;Guazatine 5;Imazalil 5;Prochloraz 10;Propiconazole N;Pyrimethanil 7;TBZ 7,DDAC 6;Fludioxonil 7;Guazatine 5;Imazalil 5;Prochloraz 10;Propiconazole 6;Pyrimethanil 10;TBZ 5,DDAC N;Fludioxonil 10;Guazatine N;Imazalil 5;Prochloraz N;Propiconazole 8;Pyrimethanil 10;TBZ 10,DDAC N;Fludioxonil 10;Guazatine N;Imazalil 5;Prochloraz N;Propiconazole 8;Pyrimethanil 7;TBZ 10,DDAC N;Fludioxonil 10;Guazatine N;Imazalil 5;Prochloraz N;Propiconazole 8;Pyrimethanil 10;TBZ 10,DDAC N;Fludioxonil 7;Guazatine 5;Imazalil 5;Prochloraz N;Propiconazole 4;Pyrimethanil 7;TBZ 10,DDAC N;Fludioxonil 10;Guazatine 5;Imazalil 5;Prochloraz 10;Propiconazole N;Pyrimethanil 7;TBZ 7,DDAC N;Fludioxonil 10;Guazatine N;Imazalil 10;Prochloraz 10;Propiconazole N;Pyrimethanil 10;TBZ 10\nGrapefruit,DDAC 6;Fludioxonil 10;Guazatine 5;Imazalil 5;Prochloraz 2;Propiconazole 6;Pyrimethanil 10;TBZ 6,DDAC N;Fludioxonil 10;Guazatine N;Imazalil 5;Prochloraz 10;Propiconazole 5;Pyrimethanil 8;TBZ 7,DDAC N;Fludioxonil 10;Guazatine N;Imazalil 10;Prochloraz N;Propiconazole 8;Pyrimethanil 10;TBZ 10,DDAC N;Fludioxonil 10;Guazatine 5;Imazalil 5;Prochloraz 10;Propiconazole N;Pyrimethanil 7;TBZ 7,DDAC 6;Fludioxonil 7;Guazatine 5;Imazalil 5;Prochloraz 10;Propiconazole 6;Pyrimethanil 10;TBZ 5,DDAC N;Fludioxonil 10;Guazatine N;Imazalil 5;Prochloraz N;Propiconazole 8;Pyrimethanil 10;TBZ 10,DDAC N;Fludioxonil 10;Guazatine N;Imazalil 5;Prochloraz N;Propiconazole 8;Pyrimethanil 7;TBZ 10,DDAC N;Fludioxonil 10;Guazatine N;Imazalil 5;Prochloraz N;Propiconazole 8;Pyrimethanil 10;TBZ 10,DDAC N;Fludioxonil 5;Guazatine 5;Imazalil 5;Prochloraz N;Propiconazole 4;Pyrimethanil 7;TBZ 10,DDAC N;Fludioxonil 10;Guazatine 5;Imazalil 5;Prochloraz 10;Propiconazole N;Pyrimethanil 7;TBZ 7,DDAC N;Fludioxonil 10;Guazatine N;Imazalil 10;Prochloraz 10;Propiconazole N;Pyrimethanil 10;TBZ 10\nOranges,DDAC 6;Fludioxonil 10;Guazatine 5;Imazalil 5;Prochloraz 2;Propiconazole 6;Pyrimethanil 10;TBZ 6,DDAC N;Fludioxonil 10;Guazatine N;Imazalil 5;Prochloraz 10;Propiconazole 9;Pyrimethanil 8;TBZ 7,DDAC N;Fludioxonil 10;Guazatine N;Imazalil 10;Prochloraz N;Propiconazole 8;Pyrimethanil 10;TBZ 10,DDAC N;Fludioxonil 10;Guazatine 5;Imazalil 5;Prochloraz 10;Propiconazole 9;Pyrimethanil 7;TBZ 7,DDAC 6;Fludioxonil 7;Guazatine 5;Imazalil 5;Prochloraz 10;Propiconazole 6;Pyrimethanil 10;TBZ 5,DDAC N;Fludioxonil 10;Guazatine N;Imazalil 5;Prochloraz N;Propiconazole 8;Pyrimethanil 10;TBZ 10,DDAC N;Fludioxonil 10;Guazatine N;Imazalil 5;Prochloraz N;Propiconazole 8;Pyrimethanil 7;TBZ 10,DDAC N;Fludioxonil 10;Guazatine N;Imazalil 5;Prochloraz N;Propiconazole 8;Pyrimethanil 10;TBZ 10,DDAC N;Fludioxonil 5;Guazatine 5;Imazalil 5;Prochloraz N;Propiconazole 4;Pyrimethanil 7;TBZ 10,DDAC N;Fludioxonil 10;Guazatine 5;Imazalil 5;Prochloraz 10;Propiconazole 9;Pyrimethanil 7;TBZ 7,DDAC N;Fludioxonil 10;Guazatine N;Imazalil 10;Prochloraz 10;Propiconazole N;Pyrimethanil 10;TBZ 10\nMandarin types,DDAC 6;Fludioxonil 10;Guazatine 5;Imazalil 5;Prochloraz 2;Propiconazole 6;Pyrimethanil 10;TBZ 6,DDAC N;Fludioxonil 10;Guazatine N;Imazalil 5;Prochloraz 10;Propiconazole 5;Pyrimethanil 8;TBZ 7,DDAC N;Fludioxonil 10;Guazatine N;Imazalil 10;Prochloraz N;Propiconazole 8;Pyrimethanil 10;TBZ 10,DDAC N;Fludioxonil 10;Guazatine 5;Imazalil 5;Prochloraz 10;Propiconazole N;Pyrimethanil 7;TBZ 7,DDAC 6;Fludioxonil 7;Guazatine 5;Imazalil 5;Prochloraz 10;Propiconazole 6;Pyrimethanil 10;TBZ 5,DDAC N;Fludioxonil 10;Guazatine N;Imazalil 5;Prochloraz N;Propiconazole 8;Pyrimethanil 10;TBZ 10,DDAC N;Fludioxonil 10;Guazatine N;Imazalil 5;Prochloraz 1;Propiconazole 8;Pyrimethanil 1;TBZ 10,DDAC N;Fludioxonil 10;Guazatine N;Imazalil 5;Prochloraz N;Propiconazole 8;Pyrimethanil 10;TBZ 10,DDAC N;Fludioxonil 7;Guazatine 5;Imazalil 5;Prochloraz N;Propiconazole N;Pyrimethanil 7;TBZ 10,DDAC N;Fludioxonil 10;Guazatine 5;Imazalil 5;Prochloraz 10;Propiconazole N;Pyrimethanil 7;TBZ 7,DDAC N;Fludioxonil 10;Guazatine N;Imazalil 10;Prochloraz 10;Propiconazole N;Pyrimethanil 10;TBZ 10";	var lines=sCSV.split("\n");
+var sCSV = {"c":["RSA", "EU", "USA", "Codex A", "Codex B", "Japan","Korea", "Canada", "Taiwan", "GSO", "Hong Kong"], "Lemons":[{"DDAC": "6","Fludioxonil": "10", "Guazatine": "5","Imazalil": "5", "Prochloraz": "2", "Propiconazole": "6" ,"Pyrimethanil": "10","TBZ": "6"} ,{"DDAC": "N", "Fludioxonil" : "10", "Guazatine" : "N", "Imazalil" : "5", "Prochloraz": "10", "Propiconazole" : "5", "Pyrimethanil" : "8" ,"TBZ" : "7"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "N", "Imazalil" : "10", "Prochloraz": "N", "Propiconazole": "8", "Pyrimethanil": "10","TBZ": "10"},{"DDAC": "N","Fludioxonil": "10", "Guazatine": "5", "Imazalil": "5", "Prochloraz": "10", "Propiconazole": "N", "Pyrimethanil": "7", "TBZ": "7"},{"DDAC": "6", "Fludioxonil": "7", "Guazatine": "5", "Imazalil": "5", "Prochloraz": "10", "Propiconazole": "6", "Pyrimethanil": "10", "TBZ": "5"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "N", "Imazalil": "5", "Prochloraz": "N", "Propiconazole": "8", "Pyrimethanil": "10", "TBZ": "10"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "N", "Imazalil": "5", "Prochloraz": "N", "Propiconazole": "8", "Pyrimethanil": "7", "TBZ": "10"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "N", "Imazalil": "5", "Prochloraz": "N", "Propiconazole": "8", "Pyrimethanil": "10", "TBZ": "10"},{"DDAC": "N", "Fludioxonil": "7", "Guazatine": "5", "Imazalil": "5", "Prochloraz": "N", "Propiconazole": "4", "Pyrimethanil": "7", "TBZ": "10"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "5", "Imazalil": "5", "Prochloraz": "10", "Propiconazole": "N", "Pyrimethanil": "7", "TBZ": "7"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "N", "Imazalil": "10", "Prochloraz": "10", "Propiconazole": "N", "Pyrimethanil": "10", "TBZ": "10"}],"Grapefruit":[{"DDAC": "6", "Fludioxonil": "10", "Guazatine": "5", "Imazalil": "5", "Prochloraz": "2", "Propiconazole": "6", "Pyrimethanil": "10", "TBZ": "6"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "N", "Imazalil": "5", "Prochloraz": "10", "Propiconazole": "5", "Pyrimethanil": "8", "TBZ": "7"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "N", "Imazalil": "10", "Prochloraz": "N", "Propiconazole": "8", "Pyrimethanil": "10", "TBZ": "10"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "5", "Imazalil": "5", "Prochloraz": "10", "Propiconazole": "N", "Pyrimethanil": "7", "TBZ": "7"},{"DDAC": "6", "Fludioxonil": "7", "Guazatine": "5", "Imazalil": "5", "Prochloraz": "10", "Propiconazole": "6", "Pyrimethanil": "10", "TBZ": "5"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "N", "Imazalil": "5", "Prochloraz": "N", "Propiconazole": "8", "Pyrimethanil": "10", "TBZ": "10"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "N", "Imazalil": "5", "Prochloraz": "N", "Propiconazole": "8", "Pyrimethanil": "7", "TBZ": "10"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "N", "Imazalil": "5", "Prochloraz": "N", "Propiconazole": "8", "Pyrimethanil": "10", "TBZ": "10"},{"DDAC": "N", "Fludioxonil": "5", "Guazatine": "5", "Imazalil": "5", "Prochloraz": "N", "Propiconazole": "4", "Pyrimethanil": "7", "TBZ": "10"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "5", "Imazalil": "5", "Prochloraz": "10", "Propiconazole": "N", "Pyrimethanil": "7", "TBZ": "7"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "N", "Imazalil": "10", "Prochloraz": "10", "Propiconazole": "N", "Pyrimethanil": "10", "TBZ": "10"}], "Oranges":[{"DDAC": "6", "Fludioxonil": "10", "Guazatine": "5", "Imazalil": "5", "Prochloraz": "2", "Propiconazole": "6", "Pyrimethanil": "10", "TBZ": "6"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "N", "Imazalil": "5", "Prochloraz": "10", "Propiconazole": "9", "Pyrimethanil": "8", "TBZ": "7"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "N", "Imazalil": "10", "Prochloraz": "N", "Propiconazole": "8", "Pyrimethanil": "10", "TBZ": "10"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "5", "Imazalil": "5", "Prochloraz": "10", "Propiconazole": "9", "Pyrimethanil": "7", "TBZ": "7"},{"DDAC": "6", "Fludioxonil": "7", "Guazatine": "5", "Imazalil": "5", "Prochloraz": "10", "Propiconazole": "6", "Pyrimethanil": "10", "TBZ": "5"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "N", "Imazalil": "5", "Prochloraz": "N", "Propiconazole": "8", "Pyrimethanil": "10", "TBZ": "10"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "N", "Imazalil": "5", "Prochloraz": "N", "Propiconazole": "8", "Pyrimethanil": "7", "TBZ": "10"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "N", "Imazalil": "5", "Prochloraz": "N", "Propiconazole": "8", "Pyrimethanil": "10", "TBZ": "10"},{"DDAC": "N", "Fludioxonil": "5", "Guazatine": "5", "Imazalil": "5", "Prochloraz": "N", "Propiconazole": "4", "Pyrimethanil": "7", "TBZ": "10"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "5", "Imazalil": "5", "Prochloraz": "10", "Propiconazole": "9", "Pyrimethanil": "7", "TBZ": "7"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "N", "Imazalil": "10", "Prochloraz": "10", "Propiconazole": "N", "Pyrimethanil": "10", "TBZ": "10"}], "Mandarin types":[{ "DDAC": "6", "Fludioxonil": "10", "Guazatine": "5", "Imazalil": "5", "Prochloraz": "2", "Propiconazole": "6", "Pyrimethanil": "10", "TBZ": "6"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "N", "Imazalil": "5", "Prochloraz": "10", "Propiconazole": "5", "Pyrimethanil": "8", "TBZ": "7"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "N", "Imazalil": "10", "Prochloraz": "N", "Propiconazole": "8", "Pyrimethanil": "10", "TBZ": "10"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "5", "Imazalil": "5", "Prochloraz": "10", "Propiconazole": "N", "Pyrimethanil": "7", "TBZ": "7"},{"DDAC": "6", "Fludioxonil": "7", "Guazatine": "5", "Imazalil": "5", "Prochloraz": "10", "Propiconazole": "6", "Pyrimethanil": "10", "TBZ": "5"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "N", "Imazalil": "5", "Prochloraz": "N", "Propiconazole": "8", "Pyrimethanil": "10", "TBZ": "10"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "N", "Imazalil": "5", "Prochloraz": "1", "Propiconazole": "8", "Pyrimethanil": "1", "TBZ": "10"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "N", "Imazalil": "5", "Prochloraz": "N", "Propiconazole": "8", "Pyrimethanil": "10", "TBZ": "10"},{"DDAC": "N", "Fludioxonil": "7", "Guazatine": "5", "Imazalil": "5", "Prochloraz": "N", "Propiconazole": "N", "Pyrimethanil": "7", "TBZ": "10"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "5", "Imazalil": "5", "Prochloraz": "10", "Propiconazole": "N", "Pyrimethanil": "7", "TBZ": "7"},{"DDAC": "N", "Fludioxonil": "10", "Guazatine": "N", "Imazalil": "10", "Prochloraz": "10", "Propiconazole": "N", "Pyrimethanil": "10", "TBZ": "10"}]};	
+	//var lines=sCSV.split("\n");
 
-	var headers=lines[0].split(",");
-	for(var i=1;i<lines.length;i++){
+	var headers=sCSV["c"];
+	var i = 0;
+	Object.keys(sCSV).forEach(function(key) {
+		if (key != "c") {
+		    var obj = {};
+			rowName[i] = key;
+			$("#checkbox_div").append(key+"<input class='name' name='citrus_rad' type='radio' id='"+i+"'><br>");
+			for(var j=0;j<headers.length;j++){
+				if (i == 1) {
+		            if (headers[j] == 'RSA') {
+						var country_name_text = 'RSA';
+						var selected = country_name_text;
+						$("#checkbox_div2").append("<div class='country_name' style='position: relative' id='"+headers[j].toLowerCase()+"_con'>"+headers[j]+"<input class='input_con_name' type='checkbox' checked='true' data-country-name='"+headers[j]+"' id='"+headers[j]+"'></div>");
+						var string_html0 = '<div id="'+selected+'_sel"> '+ country_name_text +' <input type="checkbox" checked="true"  class="input_con_name_sel" data-country-name0 = "'+country_name_text +'"/> </div>';
+						$("#check_countries").append(string_html0);
+					} else {
+						$("#checkbox_div2").append("<div class='country_name' style='position: relative' id='"+headers[j].toLowerCase()+"_con'>"+headers[j]+"<input class='input_con_name' type='checkbox' data-country-name='"+headers[j]+"' id='"+headers[j]+"'></div>");
+		            }
+		  		}
+				obj[headers[j]] = sCSV[key];
 
-	  var obj = {};
-	  var currentline=lines[i].split(",");
-	  rowName[i-1] = currentline[0];
-	  if (currentline[0] != "") {
-	  	$("#checkbox_div").append(currentline[0]+"<input class='name' name='citrus_rad' type='radio' id='"+i+"'><br>");
-	  }
-	  for(var j=1;j<headers.length;j++){
-		  if (i == 1) {
-                if (headers[j] == 'RSA') {
-                       var country_name_text = 'RSA';
-                       var selected = country_name_text;
-                       $("#checkbox_div2").append("<div class='country_name' style='position: relative' id='"+headers[j].toLowerCase()+"_con'>"+headers[j]+"<input class='input_con_name' type='checkbox' checked='true' data-country-name='"+headers[j]+"' id='"+headers[j]+"'></div>");
-                       var string_html0 = '<div id="'+selected+'_sel"> '+ country_name_text +' <input type="checkbox" checked="true"  class="input_con_name_sel" data-country-name0 = "'+country_name_text +'"/> </div>';
-        $("#check_countries").append(string_html0);
-                } else {
-	  	       $("#checkbox_div2").append("<div class='country_name' style='position: relative' id='"+headers[j].toLowerCase()+"_con'>"+headers[j]+"<input class='input_con_name' type='checkbox' data-country-name='"+headers[j]+"' id='"+headers[j]+"'></div>");
-                }
-	  	}
-		  obj[headers[j]] = currentline[j];
-
-	  }
-	  result.push(obj);
-
-	}
+			}
+			result.push(obj);
+			i++;
+    	}
+	});
+	
 
 	//result.pop();
-	var sCSV = "Codex A,Angola,Benin,Botswana,Congo,Gabon,Kenya,Madagascar,Mali,Mauritius,Mauritania,Namibia,Senegal,Seychelles,Reunion,Sudan,Tanzania,China,Indonesia,Malaysia,Philippines,Singapore,Vietnam\nCodex B,Burkina Faso,Cameroon,Côte d'Ivoire,Malawi,Nigeria,Tunisia,Uganda,Bangladesh,Sri Lanka,Iran,Kuwait,Pakistan,Azerbaijan,Jordan,Georgia,Russia\nGSO,United Arab Emirates,Bahrain,Saudi Arabia,Oman,Qatar,Kuwait,Yemen";
-	var lines=sCSV.split("\n");
-	for(var i=0;i<lines.length;i++){
-		var currentline=lines[i].split(",");
-		for(var j=1;j<currentline.length;j++){
-			if (currentline[j] != "") {
-  				$("#checkbox_div2").append("<div class='country_name' style='position: relative' id='"+currentline[j].toLowerCase()+"_con'>"+currentline[j]+"<input class='input_con_name' data-country-name='"+currentline[j]+"' type='checkbox' id='"+currentline[0]+"'></div>");
-			}
+	var sCSV = {"Codex A": ["Angola", "Benin", "Botswana", "Congo", "Gabon", "Kenya", "Madagascar", "Mali", "Mauritius", "Mauritania", "Namibia", "Senegal", "Seychelles", "Reunion", "Sudan", "Tanzania", "China", "Indonesia", "Malaysia", "Philippines", "Singapore", "Vietnam"], 
+"Codex B" :["Burkina Faso", "Cameroon", "Côte d'Ivoire", "Malawi", "Nigeria", "Tunisia", "Uganda", "Bangladesh", "Sri Lanka", "Iran", "Kuwait", "Pakistan", "Azerbaijan", "Jordan", "Georgia", "Russia"], 
+"GSO":["United Arab Emirates", "Bahrain", "Saudi Arabia", "Oman", "Qatar", "Kuwait", "Yemen"]};
+	Object.keys(sCSV).forEach(function(key) {
+		for(var j=0;j<sCSV[key].length;j++){
+  				$("#checkbox_div2").append("<div class='country_name' style='position: relative' id='"+sCSV[key][j].toLowerCase()+"_con'>"+sCSV[key][j]+"<input class='input_con_name' data-country-name='"+sCSV[key][j]+"' type='checkbox' id='"+key+"'></div>");
   		}
 		
-	}
+	});
 $('#checkbox_div2 div').sort(function (a, b)
 	{
 		return String.prototype.localeCompare.call(a.id.toLowerCase(), b.id.toLowerCase());
@@ -635,10 +634,9 @@ $(".input_con_name_sel").change(function () {
 go_to_div("end_div");
 }
 function add_to_answer(to_add) {
-	var values_add = to_add.split(";");
-	for (var i = 0; i < values_add.length; i++) {
-		if (answer.indexOf(values_add[i]) == -1) {
-			answer.push(values_add[i]);		
+	Object.keys(to_add).forEach(function(key) {
+		if (answer.indexOf(key + " " + to_add[key]) == -1) {
+			answer.push(key + " " + to_add[key]);		
 		}
 	}
 }
