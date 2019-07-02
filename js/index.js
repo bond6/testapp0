@@ -1197,7 +1197,7 @@ $(".input_con_name_sel").change(function () {
 	}
 	$("#answer").append("<p style='color:red;'> Residues must comply to import as well as export countries (RSA) MRL's.</p><p style='color:#0095C1;'>* No residue</p><p style='color:red;'>No guarantees are given that the MRL data is correct at time of use. It is the user's responsibility to be familiar with the latest MRL requirements of their markets. </p>");
 go_to_div("end_div");
-//sortTable("mymrltable",1);
+sortTable("mymrltable",1);
 }
 function add_to_answer(to_add) {
 	Object.keys(to_add).forEach(function(key) {
@@ -1212,5 +1212,5 @@ function scroll_to() {
         var $scrolltodiv = $('div[id^='+$value+'][id$=_con]');
 	$("#checkbox_div2").scrollTo($scrolltodiv);
 }
-//sortTable("table_products",2);
+sortTable("table_products",2);
 
