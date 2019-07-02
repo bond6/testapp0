@@ -1009,7 +1009,7 @@ $(".input_con_name_sel").change(function () {
     // Start by saying: no switching is done:
     switching = false;
     rows = table.rows;
-    console.log(rows);
+    //console.log(rows);
     /* Loop through all table rows (except the
     first, which contains table headers): */
     for (i = begin; i < (rows.length - 1); i++) {
@@ -1023,6 +1023,7 @@ $(".input_con_name_sel").change(function () {
       if (x.innerHTML.toLowerCase().charAt(0) > y.innerHTML.toLowerCase().charAt(0)) {
         // If so, mark as a switch and break the loop:
         shouldSwitch = true;
+        //console.log(x.innerHTML.toLowerCase().charAt(0) + " " + y.innerHTML.toLowerCase().charAt(0));
         break;
       }
     }
@@ -1116,8 +1117,8 @@ $(".input_con_name_sel").change(function () {
 		}
 		
 	}
-	console.log(country_index_u);
-	console.log(active_index_u);
+	//console.log(country_index_u);
+	//console.log(active_index_u);
         string_ans = "<table id='mymrltable'>";
         string_ans += "<tr><th style='text-align:left;'>Active </th><th>MRL</th><th style='text-align:left;'>Products</th> </tr>";
 	var str = '';
@@ -1189,7 +1190,7 @@ $(".input_con_name_sel").change(function () {
                     row = 'row1';
                     boolean_row = true;
                 }
-        string_ans += "<tr class='"+row+"'> <td> Peracetic Acid Peroxide</td><td align='center'> <p style='color:#0095C1;'>*</p> </td> <td> HyperCide </td></tr>";
+        string_ans += "<tr class='"+row+"'> <td>Peracetic Acid Peroxide</td><td align='center'> <p style='color:#0095C1;'>*</p> </td> <td> HyperCide </td></tr>";
 	string_ans += "</table></div>";
         $("#answer").append(string_ans);
 	for (var j = 0; j < arrNoM.length; j++) {
