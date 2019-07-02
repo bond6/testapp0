@@ -999,6 +999,41 @@ $(".input_con_name_sel").change(function () {
         );
 	$('#test_d').append("test");*/
     }
+  function sortTable(id_table, begin) {
+  var table, rows, switching, i, x, y, shouldSwitch;
+  table = document.getElementById(id_table);
+  switching = true;
+  /* Make a loop that will continue until
+  no switching has been done: */
+  while (switching) {
+    // Start by saying: no switching is done:
+    switching = false;
+    rows = table.rows;
+    console.log(rows);
+    /* Loop through all table rows (except the
+    first, which contains table headers): */
+    for (i = begin; i < (rows.length - 1); i++) {
+      // Start by saying there should be no switching:
+      shouldSwitch = false;
+      /* Get the two elements you want to compare,
+      one from current row and one from the next: */
+      x = rows[i].getElementsByTagName("td")[0];
+      y = rows[i + 1].getElementsByTagName("td")[0];
+      // Check if the two rows should switch place:
+      if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+        // If so, mark as a switch and break the loop:
+        shouldSwitch = true;
+        break;
+      }
+    }
+    if (shouldSwitch) {
+      /* If a switch has been marked, make the switch
+      and mark that a switch has been done: */
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+    }
+  }
+}
     function go_to_div(div_go_to) {
         $(document).ready(function () {
     // Handler for .ready() called.
@@ -1162,6 +1197,7 @@ $(".input_con_name_sel").change(function () {
 	}
 	$("#answer").append("<p style='color:red;'> Residues must comply to import as well as export countries (RSA) MRL's.</p><p style='color:#0095C1;'>* No residue</p><p style='color:red;'>No guarantees are given that the MRL data is correct at time of use. It is the user's responsibility to be familiar with the latest MRL requirements of their markets. </p>");
 go_to_div("end_div");
+//sortTable("mymrltable",1);
 }
 function add_to_answer(to_add) {
 	Object.keys(to_add).forEach(function(key) {
@@ -1176,4 +1212,5 @@ function scroll_to() {
         var $scrolltodiv = $('div[id^='+$value+'][id$=_con]');
 	$("#checkbox_div2").scrollTo($scrolltodiv);
 }
+//sortTable("table_products",2);
 
