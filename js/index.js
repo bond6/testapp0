@@ -3,6 +3,7 @@
 background-color:#b3edff;
 }
 */
+var number_of_actives = 9;
 var storage = window.localStorage;
 var value_date = storage.getItem("date");
 var result = [];
@@ -511,7 +512,7 @@ $( '#gallery2' ).click( function( e ) {
       "Prochloraz": "10",
       "Propiconazole": "N",
       "Pyrimethanil": "7",
-      "Azoxystrobin": "1",
+      "Azoxystrobin": "U",
       "TBZ": "7"
     },
     {
@@ -635,7 +636,7 @@ $( '#gallery2' ).click( function( e ) {
       "Propiconazole": "N",
       "Pyrimethanil": "7",
       "TBZ": "7",
-      "Azoxystrobin": "1"
+      "Azoxystrobin": "U"
     },
     {
       "DDAC": "N",
@@ -758,7 +759,7 @@ $( '#gallery2' ).click( function( e ) {
       "Propiconazole": "9",
       "Pyrimethanil": "7",
       "TBZ": "7",
-      "Azoxystrobin": "1"
+      "Azoxystrobin": "U"
     },
     {
       "DDAC": "N",
@@ -881,7 +882,7 @@ $( '#gallery2' ).click( function( e ) {
       "Propiconazole": "N",
       "Pyrimethanil": "7",
       "TBZ": "7",
-      "Azoxystrobin": "1"
+      "Azoxystrobin": "U"
     },
     {
       "DDAC": "N",
@@ -1014,10 +1015,12 @@ $(".input_con_name_sel").change(function () {
 	var checked_countries= [];
 	var checked_citrus= [];
 	var arrNoM = [];
+	var unkown_answer = false;
+	var country_index_u = [];
+	var active_index_u = [];
 	one_value = [];
 	two_value = [];
 	answer = [];
-
 	$("#checkbox_div2 input:checked").each(function(){
 		$("#countries_selected").append($(this).data('country-name')+", ");
 		checked_countries.push($(this).attr('id'));	
@@ -1038,7 +1041,6 @@ $(".input_con_name_sel").change(function () {
 	}
 	for (var i = 0; i < answer.length; i++) {
 		var two_values = [];
-		
 		two_values = answer[i].split(" ");
 		if (one_value.indexOf(two_values[0]) == -1) {
 			if(two_values[1] == "N") {
@@ -1047,6 +1049,12 @@ $(".input_con_name_sel").change(function () {
 			} else if (two_values[1] == "Exempt") {
 				one_value[i] = two_values[0];
 				two_value[i] = parseFloat("-2");
+			} else if (two_values[1] == "U") {
+				one_value[i] = two_values[0];
+				two_value[i] = parseFloat("200");
+				unkown_answer = true;
+				country_index_u.push(checked_countries[Math.trunc(i/number_of_actives)]);
+				active_index_u.push(two_values[0]);
 			} else {
 				one_value[i] = two_values[0];
 				two_value[i] = parseFloat(two_values[1]);
@@ -1073,13 +1081,21 @@ $(".input_con_name_sel").change(function () {
 		}
 		
 	}
+	console.log(country_index_u);
+	console.log(active_index_u);
         string_ans = "<table id='mymrltable'>";
         string_ans += "<tr><th style='text-align:left;'>Active </th><th>MRL</th><th style='text-align:left;'>Products</th> </tr>";
 	var str = '';
+	var str_u = '';
         var arrProducts = [];
         var row = '';
 	for (var i = 0; i < one_value.length; i++) {
-                
+        if (unkown_answer == true) {
+        	if (active_index_u.indexOf(one_value[i]) != -1) {
+        		var i_u = active_index_u.indexOf(one_value[i]);
+        		str_u = "(Unkown for "+country_index_u[i_u]+")";
+        	}
+        }        
 		str = '';
                 if (one_value[i] == "DDAC") {
 			arrProducts = ddac;
@@ -1115,8 +1131,11 @@ $(".input_con_name_sel").change(function () {
                     row = 'row1';
                     boolean_row = true;
                 }
-			string_ans += "<tr class='"+row+"'> <td>" + one_value[i] + "</td><td align='center'> Exempt </td> <td>"+str+" </td></tr>";
+			string_ans += "<tr class='"+row+"'> <td>" + one_value[i] + "</td><td align='center'> Exempt "+str_u+" </td> <td>"+str+" </td></tr>";
 		} else {
+			if (two_value[i] == 200) {
+				two_value[i] = '';
+			}
                         if (boolean_row == true) {
                     row = 'row0';
                     boolean_row = false;
@@ -1124,8 +1143,9 @@ $(".input_con_name_sel").change(function () {
                     row = 'row1';
                     boolean_row = true;
                 }
-			string_ans +=  "<tr class='"+row+"'> <td>" + one_value[i] + "</td><td align='center'> " + two_value[i] +"</td> <td>"+str+" </td></tr>";
+			string_ans +=  "<tr class='"+row+"'> <td>" + one_value[i] + "</td><td align='center'> " + two_value[i] + str_u +"</td> <td>"+str+" </td></tr>";
 		}
+		str_u = '';
 	}
         if (boolean_row == true) {
                     row = 'row0';
