@@ -68,6 +68,7 @@ function nothing_func() {
  return false;
 }
 function alert_uncheck_za() {
+	console.log('uncheck');
   navigator.notification.alert("Residues must comply to import as well as export countries (RSA) MRL's.",nothing_func,'Note', 'Done');
 }
 function alert_desc() {
@@ -392,510 +393,510 @@ $( '#gallery2' ).click( function( e ) {
 			} );
 	var sCSV = {
   "c": [
-    "RSA",
-    "EU",
-    "USA",
-    "Codex A",
-    "Codex B",
-    "Japan",
-    "Korea",
     "Canada",
-    "Taiwan",
-    "GSO",
-    "Hong Kong"
+	"Codex A",
+	"Codex B",
+	"EU",
+	"GSO",
+	"Hong Kong",
+	"Japan",
+	"Korea",
+	"RSA",
+	"Taiwan",
+	"USA"
   ],
-  "Lemons": [
-    {
-      "DDAC": "6",
-      "Fludioxonil": "10",
-      "Guazatine": "5",
-      "Imazalil": "5",
-      "Prochloraz": "2",
-      "Propiconazole": "6",
-      "Pyrimethanil": "10",
-      "Azoxystrobin": "10",
-      "TBZ": "6"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "N",
-      "Imazalil": "5",
-      "Prochloraz": "10",
-      "Propiconazole": "5",
-      "Pyrimethanil": "8",
-      "Azoxystrobin": "15",
-      "TBZ": "7"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "N",
-      "Imazalil": "10",
-      "Prochloraz": "N",
-      "Propiconazole": "8",
-      "Pyrimethanil": "10",
-      "Azoxystrobin": "15",
-      "TBZ": "10"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "5",
-      "Imazalil": "5",
-      "Prochloraz": "10",
-      "Propiconazole": "N",
-      "Pyrimethanil": "7",
-      "Azoxystrobin": "15",
-      "TBZ": "7"
-    },
-    {
-      "DDAC": "6",
-      "Fludioxonil": "7",
-      "Guazatine": "5",
-      "Imazalil": "5",
-      "Prochloraz": "10",
-      "Propiconazole": "6",
-      "Pyrimethanil": "10",
-      "Azoxystrobin": "15",
-      "TBZ": "5"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "N",
-      "Imazalil": "5",
-      "Prochloraz": "N",
-      "Propiconazole": "8",
-      "Pyrimethanil": "10",
-      "Azoxystrobin": "10",
-      "TBZ": "10"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "N",
-      "Imazalil": "5",
-      "Prochloraz": "N",
-      "Propiconazole": "8",
-      "Pyrimethanil": "7",
-      "Azoxystrobin": "10",
-      "TBZ": "10"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "N",
-      "Imazalil": "5",
-      "Prochloraz": "N",
-      "Propiconazole": "8",
-      "Pyrimethanil": "10",
-      "Azoxystrobin": "15",
-      "TBZ": "10"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "7",
-      "Guazatine": "5",
-      "Imazalil": "5",
-      "Prochloraz": "N",
-      "Propiconazole": "4",
-      "Pyrimethanil": "7",
-      "Azoxystrobin": "10",
-      "TBZ": "10"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "5",
-      "Imazalil": "5",
-      "Prochloraz": "10",
-      "Propiconazole": "N",
-      "Pyrimethanil": "7",
-      "Azoxystrobin": "U",
-      "TBZ": "7"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "N",
-      "Imazalil": "10",
-      "Prochloraz": "10",
-      "Propiconazole": "N",
-      "Pyrimethanil": "10",
-      "Azoxystrobin": "15",
-      "TBZ": "10"
-    }
-  ],
-  "Grapefruit": [
-    {
-      "DDAC": "6",
-      "Fludioxonil": "10",
-      "Guazatine": "5",
-      "Imazalil": "5",
-      "Prochloraz": "2",
-      "Propiconazole": "6",
-      "Pyrimethanil": "10",
-      "TBZ": "6",
-      "Azoxystrobin": "10"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "N",
-      "Imazalil": "5",
-      "Prochloraz": "10",
-      "Propiconazole": "5",
-      "Pyrimethanil": "8",
-      "TBZ": "7",
-      "Azoxystrobin": "15"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "N",
-      "Imazalil": "10",
-      "Prochloraz": "N",
-      "Propiconazole": "8",
-      "Pyrimethanil": "10",
-      "TBZ": "10",
-      "Azoxystrobin": "15"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "5",
-      "Imazalil": "5",
-      "Prochloraz": "10",
-      "Propiconazole": "N",
-      "Pyrimethanil": "7",
-      "TBZ": "7",
-      "Azoxystrobin": "15"
-    },
-    {
-      "DDAC": "6",
-      "Fludioxonil": "7",
-      "Guazatine": "5",
-      "Imazalil": "5",
-      "Prochloraz": "10",
-      "Propiconazole": "6",
-      "Pyrimethanil": "10",
-      "TBZ": "5",
-      "Azoxystrobin": "15"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "N",
-      "Imazalil": "5",
-      "Prochloraz": "N",
-      "Propiconazole": "8",
-      "Pyrimethanil": "10",
-      "TBZ": "10",
-      "Azoxystrobin": "10"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "N",
-      "Imazalil": "5",
-      "Prochloraz": "N",
-      "Propiconazole": "8",
-      "Pyrimethanil": "7",
-      "TBZ": "10",
-      "Azoxystrobin": "10"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "N",
-      "Imazalil": "5",
-      "Prochloraz": "N",
-      "Propiconazole": "8",
-      "Pyrimethanil": "10",
-      "TBZ": "10",
-      "Azoxystrobin": "15"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "5",
-      "Guazatine": "5",
-      "Imazalil": "5",
-      "Prochloraz": "N",
-      "Propiconazole": "4",
-      "Pyrimethanil": "7",
-      "TBZ": "10",
-      "Azoxystrobin": "10"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "5",
-      "Imazalil": "5",
-      "Prochloraz": "10",
-      "Propiconazole": "N",
-      "Pyrimethanil": "7",
-      "TBZ": "7",
-      "Azoxystrobin": "U"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "N",
-      "Imazalil": "10",
-      "Prochloraz": "10",
-      "Propiconazole": "N",
-      "Pyrimethanil": "10",
-      "TBZ": "10",
-      "Azoxystrobin": "15"
-    }
-  ],
-  "Oranges": [
-    {
-      "DDAC": "6",
-      "Fludioxonil": "10",
-      "Guazatine": "5",
-      "Imazalil": "5",
-      "Prochloraz": "2",
-      "Propiconazole": "6",
-      "Pyrimethanil": "10",
-      "TBZ": "6",
-      "Azoxystrobin": "10"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "N",
-      "Imazalil": "5",
-      "Prochloraz": "10",
-      "Propiconazole": "9",
-      "Pyrimethanil": "8",
-      "TBZ": "7",
-      "Azoxystrobin": "15"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "N",
-      "Imazalil": "10",
-      "Prochloraz": "N",
-      "Propiconazole": "8",
-      "Pyrimethanil": "10",
-      "TBZ": "10",
-      "Azoxystrobin": "15"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "5",
-      "Imazalil": "5",
-      "Prochloraz": "10",
-      "Propiconazole": "9",
-      "Pyrimethanil": "7",
-      "TBZ": "7",
-      "Azoxystrobin": "15"
-    },
-    {
-      "DDAC": "6",
-      "Fludioxonil": "7",
-      "Guazatine": "5",
-      "Imazalil": "5",
-      "Prochloraz": "10",
-      "Propiconazole": "6",
-      "Pyrimethanil": "10",
-      "TBZ": "5",
-      "Azoxystrobin": "15"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "N",
-      "Imazalil": "5",
-      "Prochloraz": "N",
-      "Propiconazole": "8",
-      "Pyrimethanil": "10",
-      "TBZ": "10",
-      "Azoxystrobin": "10"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "N",
-      "Imazalil": "5",
-      "Prochloraz": "N",
-      "Propiconazole": "8",
-      "Pyrimethanil": "7",
-      "TBZ": "10",
-      "Azoxystrobin": "10"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "N",
-      "Imazalil": "5",
-      "Prochloraz": "N",
-      "Propiconazole": "8",
-      "Pyrimethanil": "10",
-      "TBZ": "10",
-      "Azoxystrobin": "15"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "5",
-      "Guazatine": "5",
-      "Imazalil": "5",
-      "Prochloraz": "N",
-      "Propiconazole": "4",
-      "Pyrimethanil": "7",
-      "TBZ": "10",
-      "Azoxystrobin": "10"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "5",
-      "Imazalil": "5",
-      "Prochloraz": "10",
-      "Propiconazole": "9",
-      "Pyrimethanil": "7",
-      "TBZ": "7",
-      "Azoxystrobin": "U"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "N",
-      "Imazalil": "10",
-      "Prochloraz": "10",
-      "Propiconazole": "N",
-      "Pyrimethanil": "10",
-      "TBZ": "10",
-      "Azoxystrobin": "15"
-    }
-  ],
-  "Mandarin types": [
-    {
-      "DDAC": "6",
-      "Fludioxonil": "10",
-      "Guazatine": "5",
-      "Imazalil": "5",
-      "Prochloraz": "2",
-      "Propiconazole": "6",
-      "Pyrimethanil": "10",
-      "TBZ": "6",
-      "Azoxystrobin": "10"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "N",
-      "Imazalil": "5",
-      "Prochloraz": "10",
-      "Propiconazole": "5",
-      "Pyrimethanil": "8",
-      "TBZ": "7",
-      "Azoxystrobin": "15"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "N",
-      "Imazalil": "10",
-      "Prochloraz": "N",
-      "Propiconazole": "8",
-      "Pyrimethanil": "10",
-      "TBZ": "10",
-      "Azoxystrobin": "15"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "5",
-      "Imazalil": "5",
-      "Prochloraz": "10",
-      "Propiconazole": "N",
-      "Pyrimethanil": "7",
-      "TBZ": "7",
-      "Azoxystrobin": "15"
-    },
-    {
-      "DDAC": "6",
-      "Fludioxonil": "7",
-      "Guazatine": "5",
-      "Imazalil": "5",
-      "Prochloraz": "10",
-      "Propiconazole": "6",
-      "Pyrimethanil": "10",
-      "TBZ": "5",
-      "Azoxystrobin": "15"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "N",
-      "Imazalil": "5",
-      "Prochloraz": "N",
-      "Propiconazole": "8",
-      "Pyrimethanil": "10",
-      "TBZ": "10",
-      "Azoxystrobin": "10"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "N",
-      "Imazalil": "5",
-      "Prochloraz": "1",
-      "Propiconazole": "8",
-      "Pyrimethanil": "1",
-      "TBZ": "10",
-      "Azoxystrobin": "10"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "N",
-      "Imazalil": "5",
-      "Prochloraz": "N",
-      "Propiconazole": "8",
-      "Pyrimethanil": "10",
-      "TBZ": "10",
-      "Azoxystrobin": "15"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "7",
-      "Guazatine": "5",
-      "Imazalil": "5",
-      "Prochloraz": "N",
-      "Propiconazole": "N",
-      "Pyrimethanil": "7",
-      "TBZ": "10",
-      "Azoxystrobin": "10"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "5",
-      "Imazalil": "5",
-      "Prochloraz": "10",
-      "Propiconazole": "N",
-      "Pyrimethanil": "7",
-      "TBZ": "7",
-      "Azoxystrobin": "U"
-    },
-    {
-      "DDAC": "N",
-      "Fludioxonil": "10",
-      "Guazatine": "N",
-      "Imazalil": "10",
-      "Prochloraz": "10",
-      "Propiconazole": "N",
-      "Pyrimethanil": "10",
-      "TBZ": "10",
-      "Azoxystrobin": "15"
-    }
-  ]
+   "Grapefruit": [
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "N",
+         "Imazalil": 5,
+         "Prochloraz": "N",
+         "Propiconazole": "8",
+         "Pyrimethanil": 10,
+         "Azoxystrobin": "15",
+         "TBZ": 10
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "5",
+         "Imazalil": 5,
+         "Prochloraz": "10",
+         "Propiconazole": "N",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": "15",
+         "TBZ": 7
+      },
+      {
+         "DDAC": "6",
+         "Fludioxonil": "10",
+         "Guazatine": "5",
+         "Imazalil": 5,
+         "Prochloraz": "10",
+         "Propiconazole": "6",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": "15",
+         "TBZ": 5
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "N",
+         "Imazalil": 5,
+         "Prochloraz": "10",
+         "Propiconazole": "5",
+         "Pyrimethanil": 8,
+         "Azoxystrobin": "15",
+         "TBZ": 7
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "N",
+         "Guazatine": "N",
+         "Imazalil": 5,
+         "Prochloraz": "10",
+         "Propiconazole": "N",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": "U",
+         "TBZ": 5
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "N",
+         "Imazalil": 10,
+         "Prochloraz": "10",
+         "Propiconazole": "N",
+         "Pyrimethanil": 10,
+         "Azoxystrobin": "15",
+         "TBZ": 10
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "N",
+         "Imazalil": 5,
+         "Prochloraz": "N",
+         "Propiconazole": "8",
+         "Pyrimethanil": 10,
+         "Azoxystrobin": "10",
+         "TBZ": 10
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "N",
+         "Imazalil": 5,
+         "Prochloraz": "N",
+         "Propiconazole": "8",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": "10",
+         "TBZ": 10
+      },
+      {
+         "DDAC": "6",
+         "Fludioxonil": "10",
+         "Guazatine": "5",
+         "Imazalil": 5,
+         "Prochloraz": "2",
+         "Propiconazole": "6",
+         "Pyrimethanil": 8,
+         "Azoxystrobin": "10",
+         "TBZ": 6
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "7",
+         "Guazatine": "5",
+         "Imazalil": 5,
+         "Prochloraz": "N",
+         "Propiconazole": "4",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": "10",
+         "TBZ": 10
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "N",
+         "Imazalil": 10,
+         "Prochloraz": "N",
+         "Propiconazole": "8",
+         "Pyrimethanil": 10,
+         "Azoxystrobin": "15",
+         "TBZ": 10
+      }
+   ],
+   "Lemons": [
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "N",
+         "Imazalil": 5,
+         "Prochloraz": "N",
+         "Propiconazole": "8",
+         "Pyrimethanil": 10,
+         "Azoxystrobin": "15",
+         "TBZ": 10
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "5",
+         "Imazalil": 5,
+         "Prochloraz": "10",
+         "Propiconazole": "N",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": "15",
+         "TBZ": 7
+      },
+      {
+         "DDAC": "6",
+         "Fludioxonil": "10",
+         "Guazatine": "5",
+         "Imazalil": 5,
+         "Prochloraz": "10",
+         "Propiconazole": "6",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": "15",
+         "TBZ": 5
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "N",
+         "Imazalil": 5,
+         "Prochloraz": "10",
+         "Propiconazole": "5",
+         "Pyrimethanil": 8,
+         "Azoxystrobin": "15",
+         "TBZ": 7
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "N",
+         "Guazatine": "N",
+         "Imazalil": 5,
+         "Prochloraz": "10",
+         "Propiconazole": "N",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": "U",
+         "TBZ": 5
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "N",
+         "Imazalil": 10,
+         "Prochloraz": "10",
+         "Propiconazole": "N",
+         "Pyrimethanil": 10,
+         "Azoxystrobin": "15",
+         "TBZ": 10
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "N",
+         "Imazalil": 5,
+         "Prochloraz": "N",
+         "Propiconazole": "8",
+         "Pyrimethanil": 10,
+         "Azoxystrobin": "10",
+         "TBZ": 10
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "N",
+         "Imazalil": 5,
+         "Prochloraz": "N",
+         "Propiconazole": "8",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": "10",
+         "TBZ": 10
+      },
+      {
+         "DDAC": "6",
+         "Fludioxonil": "10",
+         "Guazatine": "5",
+         "Imazalil": 5,
+         "Prochloraz": "2",
+         "Propiconazole": "6",
+         "Pyrimethanil": 8,
+         "Azoxystrobin": "10",
+         "TBZ": 6
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "7",
+         "Guazatine": "5",
+         "Imazalil": 5,
+         "Prochloraz": "N",
+         "Propiconazole": "4",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": "10",
+         "TBZ": 10
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "N",
+         "Imazalil": 10,
+         "Prochloraz": "N",
+         "Propiconazole": "8",
+         "Pyrimethanil": 10,
+         "Azoxystrobin": "15",
+         "TBZ": 10
+      }
+   ],
+   "Mandarin types": [
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "N",
+         "Imazalil": 5,
+         "Prochloraz": "N",
+         "Propiconazole": "8",
+         "Pyrimethanil": 10,
+         "Azoxystrobin": "15",
+         "TBZ": 10
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "5",
+         "Imazalil": 5,
+         "Prochloraz": "10",
+         "Propiconazole": "N",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": "15",
+         "TBZ": 7
+      },
+      {
+         "DDAC": "6",
+         "Fludioxonil": "10",
+         "Guazatine": "5",
+         "Imazalil": 5,
+         "Prochloraz": "10",
+         "Propiconazole": "6",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": "15",
+         "TBZ": 5
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "N",
+         "Guazatine": "N",
+         "Imazalil": 5,
+         "Prochloraz": "10",
+         "Propiconazole": "5",
+         "Pyrimethanil": 8,
+         "Azoxystrobin": "15",
+         "TBZ": 7
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "N",
+         "Guazatine": "N",
+         "Imazalil": 5,
+         "Prochloraz": "10",
+         "Propiconazole": "N",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": "U",
+         "TBZ": 5
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "N",
+         "Imazalil": 10,
+         "Prochloraz": "10",
+         "Propiconazole": "N",
+         "Pyrimethanil": 10,
+         "Azoxystrobin": "15",
+         "TBZ": 10
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "N",
+         "Imazalil": 5,
+         "Prochloraz": "N",
+         "Propiconazole": "8",
+         "Pyrimethanil": 10,
+         "Azoxystrobin": "1",
+         "TBZ": 10
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "N",
+         "Imazalil": 5,
+         "Prochloraz": "1",
+         "Propiconazole": "8",
+         "Pyrimethanil": 1,
+         "Azoxystrobin": "10",
+         "TBZ": 10
+      },
+      {
+         "DDAC": "6",
+         "Fludioxonil": "10",
+         "Guazatine": "5",
+         "Imazalil": 5,
+         "Prochloraz": "2",
+         "Propiconazole": "6",
+         "Pyrimethanil": 8,
+         "Azoxystrobin": "10",
+         "TBZ": 6
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "7",
+         "Guazatine": "5",
+         "Imazalil": 5,
+         "Prochloraz": "N",
+         "Propiconazole": "4",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": "10",
+         "TBZ": 10
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "N",
+         "Imazalil": 10,
+         "Prochloraz": "N",
+         "Propiconazole": "8",
+         "Pyrimethanil": 10,
+         "Azoxystrobin": "15",
+         "TBZ": 10
+      }
+   ],
+   "Oranges": [
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "N",
+         "Imazalil": 5,
+         "Prochloraz": "N",
+         "Propiconazole": "8",
+         "Pyrimethanil": 10,
+         "Azoxystrobin": "15",
+         "TBZ": 10
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "5",
+         "Imazalil": 5,
+         "Prochloraz": "10",
+         "Propiconazole": "9",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": "15",
+         "TBZ": 7
+      },
+      {
+         "DDAC": "6",
+         "Fludioxonil": "10",
+         "Guazatine": "5",
+         "Imazalil": 5,
+         "Prochloraz": "10",
+         "Propiconazole": "9",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": "15",
+         "TBZ": 5
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "N",
+         "Imazalil": 5,
+         "Prochloraz": "10",
+         "Propiconazole": "9",
+         "Pyrimethanil": 8,
+         "Azoxystrobin": "15",
+         "TBZ": 7
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "N",
+         "Guazatine": "N",
+         "Imazalil": 5,
+         "Prochloraz": "10",
+         "Propiconazole": "N",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": "U",
+         "TBZ": 5
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "N",
+         "Imazalil": 10,
+         "Prochloraz": "10",
+         "Propiconazole": "N",
+         "Pyrimethanil": 10,
+         "Azoxystrobin": "15",
+         "TBZ": 10
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "N",
+         "Imazalil": 5,
+         "Prochloraz": "N",
+         "Propiconazole": "8",
+         "Pyrimethanil": 10,
+         "Azoxystrobin": "10",
+         "TBZ": 10
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "N",
+         "Imazalil": 5,
+         "Prochloraz": "N",
+         "Propiconazole": "8",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": "10",
+         "TBZ": 10
+      },
+      {
+         "DDAC": "6",
+         "Fludioxonil": "10",
+         "Guazatine": "5",
+         "Imazalil": 5,
+         "Prochloraz": "2",
+         "Propiconazole": "6",
+         "Pyrimethanil": 10,
+         "Azoxystrobin": "10",
+         "TBZ": 6
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "5",
+         "Guazatine": "5",
+         "Imazalil": 5,
+         "Prochloraz": "N",
+         "Propiconazole": "4",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": "10",
+         "TBZ": 10
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": "10",
+         "Guazatine": "N",
+         "Imazalil": 10,
+         "Prochloraz": "N",
+         "Propiconazole": "8",
+         "Pyrimethanil": 10,
+         "Azoxystrobin": "15",
+         "TBZ": 10
+      }
+   ]
 };	
 	//var lines=sCSV.split("\n");
 
@@ -1020,7 +1021,7 @@ $(".input_con_name_sel").change(function () {
       x = rows[i].getElementsByTagName("td")[0];
       y = rows[i + 1].getElementsByTagName("td")[0];
       // Check if the two rows should switch place:
-      if (x.innerHTML.toLowerCase().charAt(0) > y.innerHTML.toLowerCase().charAt(0)) {
+      if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
         // If so, mark as a switch and break the loop:
         shouldSwitch = true;
         //console.log(x.innerHTML.toLowerCase().charAt(0) + " " + y.innerHTML.toLowerCase().charAt(0));
