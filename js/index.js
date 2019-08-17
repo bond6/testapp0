@@ -412,7 +412,7 @@ $( '#gallery2' ).click( function( e ) {
          "Guazatine": "N",
          "Imazalil": 5,
          "Prochloraz": "N",
-         "Propiconazole": "8",
+         "Propiconazole": "4",
          "Pyrimethanil": 10,
          "Azoxystrobin": "15",
          "TBZ": 10
@@ -423,7 +423,7 @@ $( '#gallery2' ).click( function( e ) {
          "Guazatine": "5",
          "Imazalil": 5,
          "Prochloraz": "10",
-         "Propiconazole": "N",
+         "Propiconazole": "4",
          "Pyrimethanil": 7,
          "Azoxystrobin": "15",
          "TBZ": 7
@@ -535,7 +535,7 @@ $( '#gallery2' ).click( function( e ) {
          "Guazatine": "N",
          "Imazalil": 5,
          "Prochloraz": "N",
-         "Propiconazole": "8",
+         "Propiconazole": "10",
          "Pyrimethanil": 10,
          "Azoxystrobin": "15",
          "TBZ": 10
@@ -546,7 +546,7 @@ $( '#gallery2' ).click( function( e ) {
          "Guazatine": "5",
          "Imazalil": 5,
          "Prochloraz": "10",
-         "Propiconazole": "N",
+         "Propiconazole": "10",
          "Pyrimethanil": 7,
          "Azoxystrobin": "15",
          "TBZ": 7
@@ -658,7 +658,7 @@ $( '#gallery2' ).click( function( e ) {
          "Guazatine": "N",
          "Imazalil": 5,
          "Prochloraz": "N",
-         "Propiconazole": "8",
+         "Propiconazole": "10",
          "Pyrimethanil": 10,
          "Azoxystrobin": "15",
          "TBZ": 10
@@ -669,7 +669,7 @@ $( '#gallery2' ).click( function( e ) {
          "Guazatine": "5",
          "Imazalil": 5,
          "Prochloraz": "10",
-         "Propiconazole": "N",
+         "Propiconazole": "10",
          "Pyrimethanil": 7,
          "Azoxystrobin": "15",
          "TBZ": 7
@@ -781,7 +781,7 @@ $( '#gallery2' ).click( function( e ) {
          "Guazatine": "N",
          "Imazalil": 5,
          "Prochloraz": "N",
-         "Propiconazole": "8",
+         "Propiconazole": "10",
          "Pyrimethanil": 10,
          "Azoxystrobin": "15",
          "TBZ": 10
@@ -792,7 +792,7 @@ $( '#gallery2' ).click( function( e ) {
          "Guazatine": "5",
          "Imazalil": 5,
          "Prochloraz": "10",
-         "Propiconazole": "9",
+         "Propiconazole": "10",
          "Pyrimethanil": 7,
          "Azoxystrobin": "15",
          "TBZ": 7
