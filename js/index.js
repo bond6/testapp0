@@ -960,14 +960,14 @@ $(".input_con_name").change(function () {
         $("#check_countries").append(string_html0);
     } else {
         if (country_name_text == 'RSA') {
-            alert_uncheck_za();
+            //alert_uncheck_za();
         }
         $('#' + selected + '_sel').remove();
     }
     $(".input_con_name_sel").change(function () {
         var country_name_text0 = $(this).data('country-name0');
         if (country_name_text0 == 'RSA') {
-            alert_uncheck_za();
+            //alert_uncheck_za();
         }
         var selected0 = country_name_text0.split(' ').join('_');
         $('*[data-country-name="'+country_name_text0+'"]').prop('checked', false);
