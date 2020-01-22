@@ -393,11 +393,11 @@ $( '#gallery2' ).click( function( e ) {
 			} );
 	var sCSV = {
   "c": [
-    "Canada",
+    	"Canada",
 	"Codex A",
 	"Codex B",
 	"EU",
-	"GSO",
+	"Russia",
 	"Hong Kong",
 	"Japan",
 	"Korea",
@@ -412,7 +412,7 @@ $( '#gallery2' ).click( function( e ) {
          "Guazatine": "N",
          "Imazalil": 5,
          "Prochloraz": "N",
-         "Propiconazole": "4",
+         "Propiconazole": "8",
          "Pyrimethanil": 10,
          "Azoxystrobin": "15",
          "TBZ": 10
@@ -423,7 +423,7 @@ $( '#gallery2' ).click( function( e ) {
          "Guazatine": "5",
          "Imazalil": 5,
          "Prochloraz": "10",
-         "Propiconazole": "8",
+         "Propiconazole": "4",
          "Pyrimethanil": 7,
          "Azoxystrobin": "15",
          "TBZ": 7
@@ -434,7 +434,7 @@ $( '#gallery2' ).click( function( e ) {
          "Guazatine": "5",
          "Imazalil": "4",
          "Prochloraz": "10",
-         "Propiconazole": "6",
+         "Propiconazole": "4",
          "Pyrimethanil": 7,
          "Azoxystrobin": "15",
          "TBZ": 5
@@ -443,7 +443,7 @@ $( '#gallery2' ).click( function( e ) {
          "DDAC": "N",
          "Fludioxonil": "10",
          "Guazatine": "N",
-         "Imazalil": 5,
+         "Imazalil": 4,
          "Prochloraz": "10",
          "Propiconazole": "5",
          "Pyrimethanil": 8,
@@ -451,14 +451,14 @@ $( '#gallery2' ).click( function( e ) {
          "TBZ": 7
       },
       {
-         "DDAC": "N",
-         "Fludioxonil": "N",
-         "Guazatine": "N",
+         "DDAC": "6",
+         "Fludioxonil": "7",
+         "Guazatine": "5",
          "Imazalil": 5,
          "Prochloraz": "10",
-         "Propiconazole": "N",
+         "Propiconazole": "6",
          "Pyrimethanil": 7,
-         "Azoxystrobin": "U",
+         "Azoxystrobin": "9",
          "TBZ": 5
       },
       {
@@ -501,7 +501,7 @@ $( '#gallery2' ).click( function( e ) {
          "Imazalil": 5,
          "Prochloraz": "2",
          "Propiconazole": "6",
-         "Pyrimethanil": 8,
+         "Pyrimethanil": 10,
          "Azoxystrobin": "10",
          "TBZ": 6
       },
@@ -544,9 +544,9 @@ $( '#gallery2' ).click( function( e ) {
          "DDAC": "N",
          "Fludioxonil": "10",
          "Guazatine": "5",
-         "Imazalil": 5,
+         "Imazalil": 15,
          "Prochloraz": "10",
-         "Propiconazole": "8",
+         "Propiconazole": "10",
          "Pyrimethanil": 7,
          "Azoxystrobin": "15",
          "TBZ": 7
@@ -555,9 +555,9 @@ $( '#gallery2' ).click( function( e ) {
          "DDAC": "6",
          "Fludioxonil": "10",
          "Guazatine": "5",
-         "Imazalil": 5,
+         "Imazalil": 15,
          "Prochloraz": "10",
-         "Propiconazole": "6",
+         "Propiconazole": "10",
          "Pyrimethanil": 7,
          "Azoxystrobin": "15",
          "TBZ": 5
@@ -574,14 +574,14 @@ $( '#gallery2' ).click( function( e ) {
          "TBZ": 7
       },
       {
-         "DDAC": "N",
-         "Fludioxonil": "N",
-         "Guazatine": "N",
+         "DDAC": "6",
+         "Fludioxonil": "7",
+         "Guazatine": "5",
          "Imazalil": 5,
          "Prochloraz": "10",
-         "Propiconazole": "N",
+         "Propiconazole": "6",
          "Pyrimethanil": 7,
-         "Azoxystrobin": "U",
+         "Azoxystrobin": "9",
          "TBZ": 5
       },
       {
@@ -624,7 +624,7 @@ $( '#gallery2' ).click( function( e ) {
          "Imazalil": 5,
          "Prochloraz": "2",
          "Propiconazole": "6",
-         "Pyrimethanil": 8,
+         "Pyrimethanil": 10,
          "Azoxystrobin": "10",
          "TBZ": 6
       },
@@ -665,14 +665,14 @@ $( '#gallery2' ).click( function( e ) {
       },
       {
          "DDAC": "N",
-         "Fludioxonil": "0.01",
+         "Fludioxonil": "10",
          "Guazatine": "5",
-         "Imazalil": "0.01",
+         "Imazalil": "5",
          "Prochloraz": "10",
-         "Propiconazole": "0.01",
-         "Pyrimethanil": "0.01",
-         "Azoxystrobin": "0.01",
-         "TBZ": "0.01"
+         "Propiconazole": "10",
+         "Pyrimethanil": "7",
+         "Azoxystrobin": "15",
+         "TBZ": "7"
       },
       {
          "DDAC": "6",
@@ -680,10 +680,10 @@ $( '#gallery2' ).click( function( e ) {
          "Guazatine": "5",
          "Imazalil": 5,
          "Prochloraz": "10",
-         "Propiconazole": "6",
+         "Propiconazole": "10",
          "Pyrimethanil": 7,
          "Azoxystrobin": "15",
-         "TBZ": 5
+         "TBZ": 7
       },
       {
          "DDAC": "N",
