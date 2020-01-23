@@ -42,7 +42,7 @@ var label_pic = [
                     { href : 'labels/Thiabendazole500SC1.jpg', title : 'Full labels on ICA website.', size:"1920x1920" },
                     { href : 'labels/StrobiCure.jpg', title : 'Full labels on ICA website.', size:"1920x1920" },
 		    { href : 'labels/Evolve480SC.jpg', title : 'Full labels on ICA website.', size:"1920x1920" },
-		    { href : 'labels/EcoTizerECO001.jpg', title : 'Full labels on ICA website.', size:"1920x1920" }
+		    { href : 'labels/EcoTizerECO001.jpg', title : 'Full labels on ICA website.', size:"1920x687" }
 				];
 var gau = ['CitriCure', 'Guazalil SL'];
 var ima = ['Guazalil SL','ImazaCure 500 EC','ImaCulate 300 EC', 'ImazaCure 750 SG'];
