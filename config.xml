@@ -1,6 +1,6 @@
 <?xml version='1.95' encoding='utf-8'?>
 
-<widget android-versionCode="10035" id="io.nardus.ica_citrus_mrl" version="1.95" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget android-versionCode="10036" id="io.nardus.ica_citrus_mrl" version="1.96" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <preference name="phonegap-version" value="cli-9.0.0"/>
 <icon src="img/logo1_1.png" width="1024" height="1024" />
     <icon density="mdpi" height="57" platform="android" src="img/logo.png" width="57"/>
@@ -23,7 +23,7 @@
         <allow-intent href="market:*" />
     </platform>
     
-    <platform name="ios" version='1.95' ios-CFBundleVersion="1.95">
+    <platform name="ios" version='1.96' ios-CFBundleVersion="1.96">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
         
