@@ -1193,8 +1193,8 @@ $(".input_con_name_sel").change(function () {
                     row = 'row1';
                     boolean_row = true;
                 }
-        string_ans += "<tr class='"+row+"'> <td>Peracetic Acid Peroxide</td><td align='center'> <p style='color:#0095C1;'>*</p> </td> <td> HyperCide </td></tr>";        string_ans += "<tr class='"+row+"'> <td>Peracetic Acid Peroxide</td><td align='center'> <p style='color:#0095C1;'>*</p> </td> <td> HyperCide </td></tr>";
-        string_ans += "<tr class='"+row+"'> <td>Clove Oil</td><td align='center'> <p style='color:#0095C1;'>*</p> </td> <td> HyperCide </td></tr>";
+        string_ans += "<tr class='"+row+"'> <td>Peracetic Acid Peroxide</td><td align='center'> <p style='color:#0095C1;'>*</p> </td> <td> HyperCide </td></tr>";        
+        string_ans += "<tr class='"+row+"'> <td>Clove Oil</td><td align='center'> <p style='color:#0095C1;'>*</p> </td> <td> EcoTizer </td></tr>";
 
 	string_ans += "</table></div>";
         $("#answer").append(string_ans);
