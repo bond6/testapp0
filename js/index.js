@@ -397,6 +397,7 @@ $( '#gallery2' ).click( function( e ) {
    "c": [
       "Canada",
       "Codex A",
+      "China",
       "Codex B",
       "EU",
       "Russia",
@@ -418,6 +419,17 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 10,
          "Azoxystrobin": 15,
          "TBZ": 10
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": 10,
+         "Guazatine": "5",
+         "Imazalil": 5,
+         "Prochloraz": "10",
+         "Propiconazole": "4",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": 15,
+         "TBZ": 7
       },
       {
          "DDAC": "N",
@@ -553,6 +565,17 @@ $( '#gallery2' ).click( function( e ) {
          "Azoxystrobin": 15,
          "TBZ": 7
       },
+	   {
+         "DDAC": "N",
+         "Fludioxonil": 10,
+         "Guazatine": "5",
+         "Imazalil": 15,
+         "Prochloraz": "10",
+         "Propiconazole": "10",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": 15,
+         "TBZ": 7
+      },
       {
          "DDAC": "6",
          "Fludioxonil": 10,
@@ -676,6 +699,17 @@ $( '#gallery2' ).click( function( e ) {
          "Azoxystrobin": 15,
          "TBZ": 7
       },
+	   {
+         "DDAC": "N",
+         "Fludioxonil": 10,
+         "Guazatine": "5",
+         "Imazalil": 5,
+         "Prochloraz": "10",
+         "Propiconazole": "10",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": 1,
+         "TBZ": 7
+      },
       {
          "DDAC": "6",
          "Fludioxonil": 10,
@@ -797,6 +831,17 @@ $( '#gallery2' ).click( function( e ) {
          "Propiconazole": "10",
          "Pyrimethanil": 7,
          "Azoxystrobin": 15,
+         "TBZ": 7
+      },
+      {
+         "DDAC": "N",
+         "Fludioxonil": 10,
+         "Guazatine": "5",
+         "Imazalil": 8,
+         "Prochloraz": "10",
+         "Propiconazole": "10",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": 1,
          "TBZ": 7
       },
       {
@@ -931,9 +976,9 @@ $( '#gallery2' ).click( function( e ) {
 	
 
 	//result.pop();
-	var sCSV = {"Codex A": ["Angola", "Benin", "Botswana", "Congo", "Gabon", "Kenya", "Madagascar", "Mali", "Mauritius", "Mauritania", "Namibia", "Senegal", "Seychelles", "Reunion", "Sudan", "Tanzania", "China", "Indonesia", "Malaysia", "Philippines", "Singapore", "Vietnam"], 
-"Codex B" :["Burkina Faso", "Cameroon", "Côte d'Ivoire", "Malawi", "Nigeria", "Tunisia", "Uganda", "Bangladesh", "Sri Lanka", "Iran", "Kuwait", "Pakistan", "Azerbaijan", "Jordan", "Georgia"], 
-"GSO":["United Arab Emirates", "Bahrain", "Saudi Arabia", "Oman", "Qatar", "Kuwait", "Yemen"]};
+	var sCSV = {"Codex A": ["Angola", "Benin", "Botswana", "Congo", "Gabon", "Kenya", "Madagascar", "Mali", "Mauritius", "Mauritania", "Namibia", "Senegal", "Seychelles", "Reunion", "Sudan", "Tanzania", /*"China",*/ "Indonesia", "Malaysia", "Philippines", "Singapore", "Vietnam"], 
+"Codex B" :["Burkina Faso", "Cameroon", "Côte d'Ivoire", "Malawi", "Nigeria", "Tunisia", "Uganda", "Bangladesh", "Sri Lanka", "Iran", "Kuwait", "Pakistan", "Azerbaijan", "Jordan", "Georgia"]}; 
+//"GSO":["United Arab Emirates", "Bahrain", "Saudi Arabia", "Oman", "Qatar", "Kuwait", "Yemen"]};
 	Object.keys(sCSV).forEach(function(key) {
 		for(var j=0;j<sCSV[key].length;j++){
   				$("#checkbox_div2").append("<div class='country_name' style='position: relative' id='"+sCSV[key][j].toLowerCase()+"_con'>"+sCSV[key][j]+"<input class='input_con_name' data-country-name='"+sCSV[key][j]+"' type='checkbox' id='"+key+"'></div>");
