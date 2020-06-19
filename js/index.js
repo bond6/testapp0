@@ -398,7 +398,6 @@ $( '#gallery2' ).click( function( e ) {
       "Canada",
       "Codex A",
       "China",
-      "Codex B",
       "EU",
       "Russia",
       "Hong Kong",
@@ -408,7 +407,7 @@ $( '#gallery2' ).click( function( e ) {
       "Taiwan",
       "USA"
    ],
-   "Grapefruit": [
+   "Grapefruit": [//0
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -419,7 +418,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 10,
          "Azoxystrobin": 15,
          "TBZ": 10
-      },
+      },//1
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -430,7 +429,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 15,
          "TBZ": 7
-      },
+      },//2
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -441,18 +440,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 15,
          "TBZ": 7
-      },
-      {
-         "DDAC": "6",
-         "Fludioxonil": 10,
-         "Guazatine": "5",
-         "Imazalil": 5,
-         "Prochloraz": "10",
-         "Propiconazole": "4",
-         "Pyrimethanil": 7,
-         "Azoxystrobin": 15,
-         "TBZ": 7
-      },
+      },//3
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -542,7 +530,7 @@ $( '#gallery2' ).click( function( e ) {
          "TBZ": 10
       }
    ],
-   "Lemons": [
+   "Lemons": [//0
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -553,7 +541,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 10,
          "Azoxystrobin": 15,
          "TBZ": 10
-      },
+      },//1
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -564,7 +552,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 15,
          "TBZ": 7
-      },
+      },//2
 	   {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -575,18 +563,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 15,
          "TBZ": 7
-      },
-      {
-         "DDAC": "6",
-         "Fludioxonil": 10,
-         "Guazatine": "5",
-         "Imazalil": 15,
-         "Prochloraz": "10",
-         "Propiconazole": "10",
-         "Pyrimethanil": 7,
-         "Azoxystrobin": 15,
-         "TBZ": 7
-      },
+      },//3
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -676,7 +653,7 @@ $( '#gallery2' ).click( function( e ) {
          "TBZ": 10
       }
    ],
-   "Mandarin types": [
+   "Mandarin types": [//0
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -687,7 +664,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 10,
          "Azoxystrobin": 15,
          "TBZ": 10
-      },
+      },//1
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -698,8 +675,8 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 15,
          "TBZ": 7
-      },
-	   {
+      },//2
+      {
          "DDAC": "N",
          "Fludioxonil": 10,
          "Guazatine": "5",
@@ -709,18 +686,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 1,
          "TBZ": 7
-      },
-      {
-         "DDAC": "6",
-         "Fludioxonil": 10,
-         "Guazatine": "5",
-         "Imazalil": 5,
-         "Prochloraz": "10",
-         "Propiconazole": "10",
-         "Pyrimethanil": 7,
-         "Azoxystrobin": 15,
-         "TBZ": 7
-      },
+      },//3
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -810,7 +776,7 @@ $( '#gallery2' ).click( function( e ) {
          "TBZ": 10
       }
    ],
-   "Oranges": [
+   "Oranges": [//0
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -821,7 +787,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 10,
          "Azoxystrobin": 15,
          "TBZ": 10
-      },
+      },//1
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -832,7 +798,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 15,
          "TBZ": 7
-      },
+      },//2
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -843,18 +809,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 1,
          "TBZ": 7
-      },
-      {
-         "DDAC": "6",
-         "Fludioxonil": 10,
-         "Guazatine": "5",
-         "Imazalil": 8,
-         "Prochloraz": "10",
-         "Propiconazole": "10",
-         "Pyrimethanil": 7,
-         "Azoxystrobin": 15,
-         "TBZ": 7
-      },
+      },//3
       {
          "DDAC": "N",
          "Fludioxonil": 10,
