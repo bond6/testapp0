@@ -407,7 +407,7 @@ $( '#gallery2' ).click( function( e ) {
       "Taiwan",
       "USA"
    ],
-   "Grapefruit": [//0
+   "Grapefruit": [//Canada Grapefruit
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -418,7 +418,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 10,
          "Azoxystrobin": 15,
          "TBZ": 10
-      },//1
+      },//Codex A Grapefruit
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -429,7 +429,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 15,
          "TBZ": 7
-      },//2
+      },//China Grapefruit
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -440,7 +440,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 15,
          "TBZ": 7
-      },//3
+      },//EU Grapefruit
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -451,7 +451,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 8,
          "Azoxystrobin": 15,
          "TBZ": 7
-      },
+      },//Russia Grapefruit
       {
          "DDAC": "6",
          "Fludioxonil": 7,
@@ -462,7 +462,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 9,
          "TBZ": 5
-      },
+      },//Hong Kong Grapefruit
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -473,7 +473,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 10,
          "Azoxystrobin": 15,
          "TBZ": 10
-      },
+      },//Japan Grapefruit
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -484,7 +484,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 10,
          "Azoxystrobin": 10,
          "TBZ": 10
-      },
+      },//Korea Grapefruit
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -495,7 +495,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 10,
          "TBZ": 10
-      },
+      },//RSA Grapefruit
       {
          "DDAC": "6",
          "Fludioxonil": 10,
@@ -506,7 +506,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 10,
          "Azoxystrobin": 10,
          "TBZ": 6
-      },
+      },//Taiwan Grapefruit
       {
          "DDAC": "N",
          "Fludioxonil": 5,
@@ -517,7 +517,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 10,
          "TBZ": 10
-      },
+      },//USA Grapefruit
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -530,7 +530,7 @@ $( '#gallery2' ).click( function( e ) {
          "TBZ": 10
       }
    ],
-   "Lemons": [//0
+   "Lemons": [//Canada Lemons
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -541,7 +541,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 10,
          "Azoxystrobin": 15,
          "TBZ": 10
-      },//1
+      },//Codex A Lemons
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -552,7 +552,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 15,
          "TBZ": 7
-      },//2
+      },//China Lemons
 	   {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -563,7 +563,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 15,
          "TBZ": 7
-      },//3
+      },//EU Lemons
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -574,7 +574,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 8,
          "Azoxystrobin": 15,
          "TBZ": 7
-      },
+      },//Russia Lemons
       {
          "DDAC": "6",
          "Fludioxonil": 7,
@@ -585,7 +585,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 9,
          "TBZ": 5
-      },
+      },//Hong Kong Lemons
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -596,7 +596,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 10,
          "Azoxystrobin": 15,
          "TBZ": 10
-      },
+      },//Japan Lemons
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -607,7 +607,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 10,
          "Azoxystrobin": 10,
          "TBZ": 10
-      },
+      },//Korea Lemons
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -618,7 +618,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 10,
          "TBZ": 10
-      },
+      },//RSA Lemons
       {
          "DDAC": "6",
          "Fludioxonil": 10,
@@ -629,7 +629,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 10,
          "Azoxystrobin": 10,
          "TBZ": 6
-      },
+      },//Taiwan Lemons
       {
          "DDAC": "N",
          "Fludioxonil": 7,
@@ -640,7 +640,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 10,
          "TBZ": 10
-      },
+      },//USA Lemons
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -653,7 +653,7 @@ $( '#gallery2' ).click( function( e ) {
          "TBZ": 10
       }
    ],
-   "Mandarin types": [//0
+   "Mandarin types": [//Canada Mandarin
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -664,7 +664,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 10,
          "Azoxystrobin": 15,
          "TBZ": 10
-      },//1
+      },//Codex A Mandarin
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -675,7 +675,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 15,
          "TBZ": 7
-      },//2
+      },//China Mandarin
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -686,7 +686,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 1,
          "TBZ": 7
-      },//3
+      },//EU Mandarin
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -697,7 +697,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 8,
          "Azoxystrobin": 15,
          "TBZ": 7
-      },
+      },//Russia Mandarin
       {
          "DDAC": "6",
          "Fludioxonil": 7,
@@ -708,7 +708,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 9,
          "TBZ": 5
-      },
+      },//Hong Kong Mandarin
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -719,7 +719,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 10,
          "Azoxystrobin": 15,
          "TBZ": 10
-      },
+      },//Japan Mandarin
       {
          "DDAC": "N",
          "Fludioxonil": 0.01,
@@ -730,7 +730,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 0.01,
          "Azoxystrobin": 0.01,
          "TBZ": 0.01
-      },
+      },//Korea Mandarin
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -741,7 +741,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 1,
          "Azoxystrobin": 9,
          "TBZ": 10
-      },
+      },//RSA Mandarin
       {
          "DDAC": "6",
          "Fludioxonil": 10,
@@ -752,7 +752,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 10,
          "Azoxystrobin": 10,
          "TBZ": 6
-      },
+      },//Taiwan Mandarin
       {
          "DDAC": "N",
          "Fludioxonil": 7,
@@ -763,7 +763,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 10,
          "TBZ": 10
-      },
+      },//USA Mandarin
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -776,7 +776,7 @@ $( '#gallery2' ).click( function( e ) {
          "TBZ": 10
       }
    ],
-   "Oranges": [//0
+   "Oranges": [//Canada Oranges
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -787,7 +787,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 10,
          "Azoxystrobin": 15,
          "TBZ": 10
-      },//1
+      },//Codex A Oranges
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -798,7 +798,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 15,
          "TBZ": 7
-      },//2
+      },//China Oranges
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -809,7 +809,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 1,
          "TBZ": 7
-      },//3
+      },//EU Oranges
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -820,7 +820,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 8,
          "Azoxystrobin": 15,
          "TBZ": 7
-      },
+      },//Russia Oranges
       {
          "DDAC": "6",
          "Fludioxonil": 7,
@@ -831,7 +831,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 9,
          "TBZ": 5
-      },
+      },//Hong Kong Oranges
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -842,7 +842,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 10,
          "Azoxystrobin": 15,
          "TBZ": 10
-      },
+      },//Japan Oranges
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -853,7 +853,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 10,
          "Azoxystrobin": 10,
          "TBZ": 10
-      },
+      },//Korea Oranges
       {
          "DDAC": "N",
          "Fludioxonil": 10,
@@ -864,7 +864,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 10,
          "TBZ": 10
-      },
+      },//RSA Oranges
       {
          "DDAC": "6",
          "Fludioxonil": 10,
@@ -875,7 +875,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 10,
          "Azoxystrobin": 10,
          "TBZ": 6
-      },
+      },//Taiwan Oranges
       {
          "DDAC": "N",
          "Fludioxonil": 5,
@@ -886,7 +886,7 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 7,
          "Azoxystrobin": 10,
          "TBZ": 10
-      },
+      },//USA Oranges
       {
          "DDAC": "N",
          "Fludioxonil": 10,
