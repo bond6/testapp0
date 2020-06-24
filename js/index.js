@@ -488,13 +488,13 @@ $( '#gallery2' ).click( function( e ) {
       {
          "DDAC": "N",
          "Fludioxonil": 10,
-         "Guazatine": "N",
+         "Guazatine": "5",
          "Imazalil": 5,
-         "Prochloraz": "10",
+         "Prochloraz": "N",
          "Propiconazole": "8",
          "Pyrimethanil": 7,
          "Azoxystrobin": 10,
-         "TBZ": 10
+         "TBZ": 7
       },//RSA Grapefruit
       {
          "DDAC": "6",
@@ -617,7 +617,7 @@ $( '#gallery2' ).click( function( e ) {
          "Propiconazole": "8",
          "Pyrimethanil": 7,
          "Azoxystrobin": 10,
-         "TBZ": 10
+         "TBZ": 7
       },//RSA Lemons
       {
          "DDAC": "6",
@@ -736,7 +736,7 @@ $( '#gallery2' ).click( function( e ) {
          "Fludioxonil": 10,
          "Guazatine": "N",
          "Imazalil": 5,
-         "Prochloraz": "10",
+         "Prochloraz": "1",
          "Propiconazole": "8",
          "Pyrimethanil": 1,
          "Azoxystrobin": 9,
@@ -863,7 +863,7 @@ $( '#gallery2' ).click( function( e ) {
          "Propiconazole": "8",
          "Pyrimethanil": 7,
          "Azoxystrobin": 10,
-         "TBZ": 10
+         "TBZ": 7
       },//RSA Oranges
       {
          "DDAC": "6",
