@@ -602,7 +602,7 @@ $( '#gallery2' ).click( function( e ) {
          "Fludioxonil": 10,
          "Guazatine": "N",
          "Imazalil": 5,
-         "Prochloraz": "N",
+         "Prochloraz": "10",
          "Propiconazole": "8",
          "Pyrimethanil": 10,
          "Azoxystrobin": 10,
@@ -611,7 +611,7 @@ $( '#gallery2' ).click( function( e ) {
       {
          "DDAC": "N",
          "Fludioxonil": 10,
-         "Guazatine": "N",
+         "Guazatine": "5",
          "Imazalil": 5,
          "Prochloraz": "N",
          "Propiconazole": "8",
@@ -722,25 +722,25 @@ $( '#gallery2' ).click( function( e ) {
       },//Japan Mandarin
       {
          "DDAC": "N",
-         "Fludioxonil": 0.01,
+         "Fludioxonil": 10,
          "Guazatine": "N",
-         "Imazalil": 0.01,
-         "Prochloraz": "N",
-         "Propiconazole": "0.01",
-         "Pyrimethanil": 0.01,
-         "Azoxystrobin": 0.01,
-         "TBZ": 0.01
+         "Imazalil": 5,
+         "Prochloraz": "10",
+         "Propiconazole": "8",
+         "Pyrimethanil": 10,
+         "Azoxystrobin": 10,
+         "TBZ": 10
       },//Korea Mandarin
       {
          "DDAC": "N",
          "Fludioxonil": 10,
-         "Guazatine": "N",
+         "Guazatine": "5",
          "Imazalil": 5,
-         "Prochloraz": "1",
+         "Prochloraz": "N",
          "Propiconazole": "8",
-         "Pyrimethanil": 1,
-         "Azoxystrobin": 9,
-         "TBZ": 10
+         "Pyrimethanil": 7,
+         "Azoxystrobin": 10,
+         "TBZ": 7
       },//RSA Mandarin
       {
          "DDAC": "6",
@@ -848,7 +848,7 @@ $( '#gallery2' ).click( function( e ) {
          "Fludioxonil": 10,
          "Guazatine": "N",
          "Imazalil": 5,
-         "Prochloraz": "N",
+         "Prochloraz": "5",
          "Propiconazole": "8",
          "Pyrimethanil": 10,
          "Azoxystrobin": 10,
@@ -857,9 +857,9 @@ $( '#gallery2' ).click( function( e ) {
       {
          "DDAC": "N",
          "Fludioxonil": 10,
-         "Guazatine": "N",
+         "Guazatine": "5",
          "Imazalil": 5,
-         "Prochloraz": "10",
+         "Prochloraz": "N",
          "Propiconazole": "8",
          "Pyrimethanil": 7,
          "Azoxystrobin": 10,
