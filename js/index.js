@@ -405,7 +405,8 @@ $( '#gallery2' ).click( function( e ) {
       "Korea",
       "RSA",
       "Taiwan",
-      "USA"
+      "USA",
+      "Indonesia"
    ],
    "Grapefruit": [//Canada Grapefruit
       {
@@ -460,16 +461,16 @@ $( '#gallery2' ).click( function( e ) {
          "Prochloraz": "10",
          "Propiconazole": "6",
          "Pyrimethanil": 7,
-         "Azoxystrobin": 9,
+         "Azoxystrobin": 15,
          "TBZ": 5
       },//Hong Kong Grapefruit
       {
          "DDAC": "N",
          "Fludioxonil": 10,
-         "Guazatine": "N",
+         "Guazatine": "5",
          "Imazalil": 10,
          "Prochloraz": "10",
-         "Propiconazole": "N",
+         "Propiconazole": "4",
          "Pyrimethanil": 10,
          "Azoxystrobin": 15,
          "TBZ": 10
@@ -528,6 +529,17 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 10,
          "Azoxystrobin": 15,
          "TBZ": 10
+      },//Indonesia Grapefruit
+      {
+         "DDAC": "N",
+         "Fludioxonil": 10,
+         "Guazatine": "5",
+         "Imazalil": 5,
+         "Prochloraz": "10",
+         "Propiconazole": "4",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": 15,
+         "TBZ": 7
       }
    ],
    "Lemons": [//Canada Lemons
@@ -583,16 +595,16 @@ $( '#gallery2' ).click( function( e ) {
          "Prochloraz": "10",
          "Propiconazole": "6",
          "Pyrimethanil": 7,
-         "Azoxystrobin": 9,
+         "Azoxystrobin": 15,
          "TBZ": 5
       },//Hong Kong Lemons
       {
          "DDAC": "N",
          "Fludioxonil": 10,
-         "Guazatine": "N",
+         "Guazatine": "5",
          "Imazalil": 10,
          "Prochloraz": "10",
-         "Propiconazole": "N",
+         "Propiconazole": "10",
          "Pyrimethanil": 10,
          "Azoxystrobin": 15,
          "TBZ": 10
@@ -651,6 +663,17 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 10,
          "Azoxystrobin": 15,
          "TBZ": 10
+      },//Indonesia Lemons
+      {
+         "DDAC": "N",
+         "Fludioxonil": 10,
+         "Guazatine": "5",
+         "Imazalil": 5,
+         "Prochloraz": "10",
+         "Propiconazole": "10",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": 15,
+         "TBZ": 7
       }
    ],
    "Mandarin types": [//Canada Mandarin
@@ -706,16 +729,16 @@ $( '#gallery2' ).click( function( e ) {
          "Prochloraz": "10",
          "Propiconazole": "6",
          "Pyrimethanil": 7,
-         "Azoxystrobin": 9,
+         "Azoxystrobin": 15,
          "TBZ": 5
       },//Hong Kong Mandarin
       {
          "DDAC": "N",
          "Fludioxonil": 10,
-         "Guazatine": "N",
+         "Guazatine": "5",
          "Imazalil": 10,
          "Prochloraz": "10",
-         "Propiconazole": "N",
+         "Propiconazole": "10",
          "Pyrimethanil": 10,
          "Azoxystrobin": 15,
          "TBZ": 10
@@ -774,6 +797,17 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 10,
          "Azoxystrobin": 15,
          "TBZ": 10
+      },//Indonesia Mandarin
+      {
+         "DDAC": "N",
+         "Fludioxonil": 10,
+         "Guazatine": "5",
+         "Imazalil": 5,
+         "Prochloraz": "10",
+         "Propiconazole": "10",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": 15,
+         "TBZ": 7
       }
    ],
    "Oranges": [//Canada Oranges
@@ -829,16 +863,16 @@ $( '#gallery2' ).click( function( e ) {
          "Prochloraz": "10",
          "Propiconazole": "6",
          "Pyrimethanil": 7,
-         "Azoxystrobin": 9,
+         "Azoxystrobin": 15,
          "TBZ": 5
       },//Hong Kong Oranges
       {
          "DDAC": "N",
          "Fludioxonil": 10,
-         "Guazatine": "N",
+         "Guazatine": "5",
          "Imazalil": 10,
          "Prochloraz": "10",
-         "Propiconazole": "N",
+         "Propiconazole": "10",
          "Pyrimethanil": 10,
          "Azoxystrobin": 15,
          "TBZ": 10
@@ -897,6 +931,17 @@ $( '#gallery2' ).click( function( e ) {
          "Pyrimethanil": 10,
          "Azoxystrobin": 15,
          "TBZ": 10
+      },//Indonesia Oranges
+      {
+         "DDAC": "N",
+         "Fludioxonil": 10,
+         "Guazatine": "5",
+         "Imazalil": 5,
+         "Prochloraz": "10",
+         "Propiconazole": "10",
+         "Pyrimethanil": 7,
+         "Azoxystrobin": 15,
+         "TBZ": 7
       }
    ]
 };	
@@ -931,7 +976,7 @@ $( '#gallery2' ).click( function( e ) {
 	
 
 	//result.pop();
-	var sCSV = {"Codex A": ["Angola", "Benin", "Botswana", "Congo", "Gabon", "Kenya", "Madagascar", "Mali", "Mauritius", "Mauritania", "Namibia", "Senegal", "Seychelles", "Reunion", "Sudan", "Tanzania", /*"China",*/ "Indonesia", "Malaysia", "Philippines", "Singapore", "Vietnam"]/*, 
+	var sCSV = {"Codex A": ["Angola", "Benin", "Botswana", "Congo", "Gabon", "Kenya", "Madagascar", "Mali", "Mauritius", "Mauritania", "Namibia", "Senegal", "Seychelles", "Reunion", "Sudan", "Tanzania", /*"China", "Indonesia",*/ "Malaysia", "Philippines", "Singapore", "Vietnam"]/*, 
 "Codex B" :["Burkina Faso", "Cameroon", "Côte d'Ivoire", "Malawi", "Nigeria", "Tunisia", "Uganda", "Bangladesh", "Sri Lanka", "Iran", "Kuwait", "Pakistan", "Azerbaijan", "Jordan", "Georgia"]*/}; 
 //"GSO":["United Arab Emirates", "Bahrain", "Saudi Arabia", "Oman", "Qatar", "Kuwait", "Yemen"]};
 	Object.keys(sCSV).forEach(function(key) {
