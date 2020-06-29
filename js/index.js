@@ -479,7 +479,7 @@ $( '#gallery2' ).click( function( e ) {
          "Fludioxonil": 10,
          "Guazatine": "N",
          "Imazalil": 5,
-         "Prochloraz": "N",
+         "Prochloraz": "10",
          "Propiconazole": "8",
          "Pyrimethanil": 10,
          "Azoxystrobin": 10,
