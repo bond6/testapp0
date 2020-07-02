@@ -439,7 +439,7 @@ $( '#gallery2' ).click( function( e ) {
          "Prochloraz": "10",
          "Propiconazole": "4",
          "Pyrimethanil": 7,
-         "Azoxystrobin": 15,
+         "Azoxystrobin": "N",
          "TBZ": 7
       },//EU Grapefruit
       {
@@ -470,7 +470,7 @@ $( '#gallery2' ).click( function( e ) {
          "Guazatine": "5",
          "Imazalil": 10,
          "Prochloraz": "10",
-         "Propiconazole": "4",
+         "Propiconazole": "N",
          "Pyrimethanil": 10,
          "Azoxystrobin": 15,
          "TBZ": 10
@@ -573,7 +573,7 @@ $( '#gallery2' ).click( function( e ) {
          "Prochloraz": "10",
          "Propiconazole": "10",
          "Pyrimethanil": 7,
-         "Azoxystrobin": 15,
+         "Azoxystrobin": "N",
          "TBZ": 7
       },//EU Lemons
       {
@@ -604,7 +604,7 @@ $( '#gallery2' ).click( function( e ) {
          "Guazatine": "5",
          "Imazalil": 10,
          "Prochloraz": "10",
-         "Propiconazole": "10",
+         "Propiconazole": "N",
          "Pyrimethanil": 10,
          "Azoxystrobin": 15,
          "TBZ": 10
@@ -707,7 +707,7 @@ $( '#gallery2' ).click( function( e ) {
          "Prochloraz": "10",
          "Propiconazole": "10",
          "Pyrimethanil": 7,
-         "Azoxystrobin": 1,
+         "Azoxystrobin": "N",
          "TBZ": 7
       },//EU Mandarin
       {
@@ -738,7 +738,7 @@ $( '#gallery2' ).click( function( e ) {
          "Guazatine": "5",
          "Imazalil": 10,
          "Prochloraz": "10",
-         "Propiconazole": "10",
+         "Propiconazole": "N",
          "Pyrimethanil": 10,
          "Azoxystrobin": 15,
          "TBZ": 10
@@ -751,7 +751,7 @@ $( '#gallery2' ).click( function( e ) {
          "Prochloraz": "10",
          "Propiconazole": "8",
          "Pyrimethanil": 10,
-         "Azoxystrobin": 10,
+         "Azoxystrobin": "0",
          "TBZ": 10
       },//Korea Mandarin
       {
@@ -782,7 +782,7 @@ $( '#gallery2' ).click( function( e ) {
          "Guazatine": "5",
          "Imazalil": 5,
          "Prochloraz": "N",
-         "Propiconazole": "4",
+         "Propiconazole": "0",
          "Pyrimethanil": 7,
          "Azoxystrobin": 10,
          "TBZ": 10
@@ -841,7 +841,7 @@ $( '#gallery2' ).click( function( e ) {
          "Prochloraz": "10",
          "Propiconazole": "10",
          "Pyrimethanil": 7,
-         "Azoxystrobin": 1,
+         "Azoxystrobin": "N",
          "TBZ": 7
       },//EU Oranges
       {
@@ -872,7 +872,7 @@ $( '#gallery2' ).click( function( e ) {
          "Guazatine": "5",
          "Imazalil": 10,
          "Prochloraz": "10",
-         "Propiconazole": "10",
+         "Propiconazole": "N",
          "Pyrimethanil": 10,
          "Azoxystrobin": 15,
          "TBZ": 10
