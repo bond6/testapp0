@@ -1,2 +1,3 @@
-# app_0
-# testapp0
+# Privacy Policy
+
+DO NOT STORE ANY DATA.
